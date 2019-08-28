@@ -1,0 +1,37 @@
+Name, Size of 25, Size of 100, Size of 250, Size of 500
+Default,3323,10176,32164,44723
+Always pivot on left,2130,10830,26488,56155
+Median of three,4418,9492,21716,51259
+Median of three+insertion under 32,8498,12667,20150,51252
+Median of three+insertion under 16,1196,8236,23023,56149
+Median of three+insertion under 8,1988,9985,24266,49242
+Always left+insertion under 32,1273,8875,25794,58502
+Always left+insertion under 16,1500,7778,22213,52890
+Always left+insertion under 8,1562,9109,25394,48054
+Default+insertion under 8,1435,7426,22997,51902
+Default+insertion under 16,2149,8243,22683,51459
+Default+insertion under 32,1269,9053,30463,61525
+Presorted+Default,531,1563,4978,10088
+Presorted+Always pivot on left,887,8735,45720,171943
+Presorted+Median of three,425,1806,5027,11465
+Presorted+Median of three+insertion under 32,384,1822,5809,11821
+Presorted+Median of three+insertion under 16,319,1529,7436,11343
+Presorted+Median of three+insertion under 8,316,1501,4309,9793
+Presorted+Always left+insertion under 32,365,8395,53361,156341
+Presorted+Always left+insertion under 16,542,8297,43643,159129
+Presorted+Always left+insertion under 8,665,8574,43902,157900
+Presorted+Default+insertion under 8,303,1558,4180,9421
+Presorted+Default+insertion under 16,398,1479,4586,10097
+Presorted+Default+insertion under 32,365,1756,5882,11729
+Reversed+Default,388,1759,5619,11824
+Reversed+Always pivot on left,956,12549,69576,265036
+Reversed+Median of three,406,1805,5538,15821
+Reversed+Median of three+insertion under 32,526,2044,6410,12703
+Reversed+Median of three+insertion under 16,335,1639,4966,10791
+Reversed+Median of three+insertion under 8,337,1730,4663,10389
+Reversed+Always left+insertion under 32,517,12149,68840,264070
+Reversed+Always left+insertion under 16,680,12170,69018,263547
+Reversed+Always left+insertion under 8,861,12271,69586,265521
+Reversed+Default+insertion under 8,327,1633,4480,9854
+Reversed+Default+insertion under 16,330,1611,4839,10568
+Reversed+Default+insertion under 32,514,1898,6101,12279
