@@ -2,11 +2,21 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 public class Quick {
 	/** Interface to pick a pivot for quicksort*/
 	interface PivotPicker { int getPivot(int[] arr, int left, int right); }
+	
+	/** Interface to function that partitions array so that every element between left and right 
+	 is moved so that: 
+		if it is less than the pivot value (array[pivot]) is placed in a lower index 
+		if it is greater than the pivot value (array[pivot]) it is placed in a higher index 
+	and returns the new position of the pivot value after partitioning  */
+	interface Partitioner { int partition(int[] array, int left, int right, int pivot); }
+	
 	/** Interface to hold another sorting function 
 	 * to use on runs of the array under a certain size*/
 	interface Subsort { void sort(int[] arr, int left, int right); }
@@ -17,16 +27,23 @@ public class Quick {
 	/** Data class for holding test configuration */
 	static class TestSetup {
 		public String name;
-		public PivotPicker pp;
+		public PivotPicker pivp;
+		public Partitioner part;
 		public int sst;
-		public Subsort ss;
-		public Generator g;
+		public Subsort ssort;
+		public Generator gen;
 		
-		public TestSetup(String name, PivotPicker pp, int sst, Subsort ss) {
-			this(name, pp, sst, ss, null);
+		public TestSetup(String name, PivotPicker pp, Partitioner pt) {
+			this(name, pp, pt, -1, null, null);
 		}
-		public TestSetup(String name, PivotPicker pp, int sst, Subsort ss, Generator g) {
-			this.name = name; this.pp = pp; this.sst = sst; this.ss = ss; this.g = g;
+		public TestSetup(String name, PivotPicker pp, Partitioner pt, int sst, Subsort ss) {
+			this(name, pp, pt, sst, ss, null);
+		}
+		public TestSetup(String name, PivotPicker pp, Partitioner pt, int sst, Subsort ss, Generator g) {
+			this.name = name; this.pivp = pp; this.part = pt; this.sst = sst; this.ssort = ss; this.gen = g;
+		}
+		public TestSetup(TestSetup original, String newName) {
+			this(newName, original.pivp, original.part, original.sst, original.ssort, original.gen);
 		}
 	}
 	
@@ -45,72 +62,7 @@ public class Quick {
 	
 	public static void main(String[] args) {
 		
-		/// Short names for method references
-		PivotPicker leftPiv = Quick::alwaysPickLeftmost;
-		PivotPicker mot = Quick::medianOfThree;
-		
-		Subsort insertion = Quick::insertionSort;
-		Generator random = (size) -> { return generateArray(100, 999, size); };
-		Generator sorted = (size) -> { 
-			int[] arr = new int[size];
-			for (int i = 0; i < arr.length; i++) {
-				arr[i] = i;
-			}
-			return arr;
-		};
-		
-		Generator reversed = (size) -> {
-			int[] arr = new int[size];
-			for (int i = 0; i < arr.length; i++) {
-				arr[i] = arr.length - i;
-			}
-			return arr;
-		};
-		
-		
-		/// Test data, names, methods, and threshold for using a subsort like insertion sort.
-		TestSetup[] tests = {
-			// Name, pivotPicker, size for subsort, subsort algorithm
-			new TestSetup("Default", null, 0, null),
-			new TestSetup("Always pivot on left", leftPiv, 0, null),
-			new TestSetup("Median of three", mot, 0, null),
-			new TestSetup("Median of three+insertion under 32", mot, 32, insertion),
-			new TestSetup("Median of three+insertion under 16", mot, 16, insertion),
-			new TestSetup("Median of three+insertion under 8", mot, 8, insertion),
-			new TestSetup("Always left+insertion under 32", leftPiv, 32, insertion),
-			new TestSetup("Always left+insertion under 16", leftPiv, 16, insertion),
-			new TestSetup("Always left+insertion under 8", leftPiv, 8, insertion),
-			new TestSetup("Default+insertion under 8", null, 8, insertion),
-			new TestSetup("Default+insertion under 16", null, 16, insertion),
-			new TestSetup("Default+insertion under 32", null, 32, insertion),
-			
-			new TestSetup("Presorted+Default", null, 0, null, sorted),
-			new TestSetup("Presorted+Always pivot on left", leftPiv, 0, null, sorted),
-			new TestSetup("Presorted+Median of three", mot, 0, null, sorted),
-			new TestSetup("Presorted+Median of three+insertion under 32", mot, 32, insertion, sorted),
-			new TestSetup("Presorted+Median of three+insertion under 16", mot, 16, insertion, sorted),
-			new TestSetup("Presorted+Median of three+insertion under 8", mot, 8, insertion, sorted),
-			new TestSetup("Presorted+Always left+insertion under 32", leftPiv, 32, insertion, sorted),
-			new TestSetup("Presorted+Always left+insertion under 16", leftPiv, 16, insertion, sorted),
-			new TestSetup("Presorted+Always left+insertion under 8", leftPiv, 8, insertion, sorted),
-			new TestSetup("Presorted+Default+insertion under 8", null, 8, insertion, sorted),
-			new TestSetup("Presorted+Default+insertion under 16", null, 16, insertion, sorted),
-			new TestSetup("Presorted+Default+insertion under 32", null, 32, insertion, sorted),
-			
-			new TestSetup("Reversed+Default", null, 0, null, reversed),
-			new TestSetup("Reversed+Always pivot on left", leftPiv, 0, null, reversed),
-			new TestSetup("Reversed+Median of three", mot, 0, null, reversed),
-			new TestSetup("Reversed+Median of three+insertion under 32", mot, 32, insertion, reversed),
-			new TestSetup("Reversed+Median of three+insertion under 16", mot, 16, insertion, reversed),
-			new TestSetup("Reversed+Median of three+insertion under 8", mot, 8, insertion, reversed),
-			new TestSetup("Reversed+Always left+insertion under 32", leftPiv, 32, insertion, reversed),
-			new TestSetup("Reversed+Always left+insertion under 16", leftPiv, 16, insertion, reversed),
-			new TestSetup("Reversed+Always left+insertion under 8", leftPiv, 8, insertion, reversed),
-			new TestSetup("Reversed+Default+insertion under 8", null, 8, insertion, reversed),
-			new TestSetup("Reversed+Default+insertion under 16", null, 16, insertion, reversed),
-			new TestSetup("Reversed+Default+insertion under 32", null, 32, insertion, reversed),
-		};
-		
+		List<TestSetup> tests = getTests();
 		/// Data array sizes to run
 		int[] sizes = { 
 			25, 100, 250, 500,
@@ -119,7 +71,7 @@ public class Quick {
 			// these big ones choke out the really bad sorts (always pivot on left/right)
 			//5000, 10000, 15000, 20000 
 		};
-		List<TestResult> results = new ArrayList(tests.length);
+		List<TestResult> results = new ArrayList(tests.size());
 		/// Number of reps for each test 
 		int numIterations = 1000;
 		
@@ -139,23 +91,41 @@ public class Quick {
 				/// Run test iterations and average for stability
 				for (int i = 0; i < numIterations; i++) {
 					/// Generate new test data
-					int[] testArray = setup.g != null
-							? setup.g.generate(dataSize)
-							: generateArray(100, 999, dataSize);
+					int[] testArray = setup.gen.generate(dataSize); // generateArray(100, 999, dataSize);
+					int[] orig = Arrays.copyOf(testArray, testArray.length);
 					
 					//System.out.println("\n\n\nGenerated new array");
 					//printArray(testArray);
-						
+					
+					
 					// Run sort and only time the sort
 					long start = System.nanoTime();
-					sort(testArray, setup.pp, setup.sst, setup.ss);
+					sort(testArray, setup.pivp, setup.part, setup.sst, setup.ssort);
 					long end = System.nanoTime();
-
+					
 					long duration = end - start;
 					totalDuration += duration;
 					durations.add(duration);
 
-					//printArray(testArray);
+					// Check for errors and print out of order elements for testing
+					try {
+						for (int k = 1; k < testArray.length; k++) {
+							if (testArray[k] < testArray[k-1]) { 
+								throw new RuntimeException("During test " + setup.name + 
+										"\n\tElements "
+										+ " array[" + k + "] = " + testArray[k]
+										+ " array[" + (k-1) + "] = " + testArray[k-1] 
+										+ " are out of order ");
+							}
+						}
+					} catch (Exception e) {
+						System.out.println(e);
+						System.out.println("Array was ");
+						printArray(orig);
+						System.out.println("Array is ");
+						printArray(testArray);
+					}
+					
 				}
 				
 				/// Record the result for the current size
@@ -164,6 +134,7 @@ public class Quick {
 				result.averageDuration.add(totalDuration / numIterations);
 			}
 			
+			//System.out.println("Finished Test " + setup.name);
 			results.add(result);
 
 		}
@@ -195,9 +166,7 @@ public class Quick {
 		try {
 			Path target = Path.of("./out.csv");
 			/// Delete existing file 
-			try {
-				Files.delete(target);
-			} catch (Exception e) {}
+			Files.delete(target);
 			
 			/// Write all text to file and close
 			Files.writeString(target, str.toString(), 
@@ -205,8 +174,144 @@ public class Quick {
 				StandardOpenOption.WRITE);
 			
 		} catch (Exception e) { throw new RuntimeException(e); }
-		
 	}
+	
+	private static List<TestSetup> getTests() {
+		/// Short names for method references + data for generating test variants
+		PivotPicker middlePiv = Quick::alwaysPickMiddle;
+		
+		// Pivot Pickers
+		PivotPicker leftPiv = Quick::alwaysPickLeftmost;
+		PivotPicker rightPiv = Quick::alwaysPickRightmost;
+		PivotPicker motPiv = Quick::medianOfThree;
+		PivotPicker[] pivots = { leftPiv, rightPiv, motPiv };
+		String[] pivotNames = { "Always Pick Leftmost", "Always Pick Rightmost", "Median Of Three" };
+		
+		// Partitioning methods
+		Partitioner jonPart = Quick::partition_Jon;
+		Partitioner lomutoPart = Quick::partition_Lomuto;
+		Partitioner hoarePart = Quick::partition_Hoare;
+		Partitioner[] partitioners = { lomutoPart, hoarePart };
+		String[] partNames = { "lomuto", "hoare" };
+		
+		// Subsort methods and sizes
+		Subsort insertionSub = Quick::insertionSort;
+		Subsort[] subsorts = { insertionSub };
+		String[] subsortNames = { "insertion" };
+		List<Integer> sizes = new ArrayList<>();
+		for (int i = 8; i < 128; i = 1 + (int)(i * 1.15)) {
+			sizes.add(i);
+		}
+		Integer[] subsortSizes = sizes.toArray(new Integer[sizes.size()]);
+		
+		// Data generators
+		Generator randomGen = (size) -> { return generateArray(100, 999, size); };
+		Generator sortedGen = (size) -> { 
+			int[] arr = new int[size];
+			for (int i = 0; i < arr.length; i++) {
+				arr[i] = i;
+			}
+			return arr;
+		};
+		Generator reversedGen = (size) -> {
+			int[] arr = new int[size];
+			for (int i = 0; i < arr.length; i++) {
+				arr[i] = arr.length - i;
+			}
+			return arr;
+		};
+		Generator[] generators = { sortedGen, reversedGen,
+				(size) -> { return generateArray(10000, 99999, size, 0xDEADBEEF); },
+				(size) -> { return generateArray(10000, 99999, size, 0xCAFEBABE); },
+				(size) -> { return generateArray(10000, 99999, size, 0xBAADF00D); },
+
+		};
+		String[] generatorNames = { "sorted", "reversed",
+				"Sequence:0xDEADBEEF",
+				"Sequence:0xCAFEBABE",
+				"Sequence:0xBAADF00D",
+		};
+		
+		// Default test data 
+		TestSetup defaultTest = new TestSetup("Default", middlePiv, jonPart, 0, null, randomGen);
+		
+		List<TestSetup> tests = new ArrayList<>();
+		tests.add(defaultTest);
+		List<TestSetup> temp = new ArrayList<>();
+		
+		// Create variations of the test with different pivot picking methods
+		for (TestSetup setup : tests) {
+			temp.add(setup);
+			
+			for (int i = 0; i < pivots.length; i++) {
+				TestSetup variant = new TestSetup(setup, pivotNames[i]);
+				variant.pivp = pivots[i];
+				temp.add(variant);
+			}
+		}
+
+		{ // Block for creating generator (dataset) variants
+			// Swap arrays (don't want to add to a collection we're iterating)
+			tests = temp;
+			temp = new ArrayList<>();
+
+			// Create variations of the test with different data generation methods
+			for (TestSetup setup : tests) {
+				temp.add(setup);
+
+				for (int i = 0; i < generators.length; i++) {
+					TestSetup variant = new TestSetup(setup, setup.name + " on " + generatorNames[i] + " data");
+					variant.gen = generators[i];
+					temp.add(variant);
+				}
+			}
+		}
+
+		{  // Block for creating partition method variants
+
+			// Swap arrays (don't want to add to a collection we're iterating)
+			tests = temp;
+			temp = new ArrayList<>();
+
+			// Create variations of the test with different partitioning methods
+			for (TestSetup setup : tests) {
+				temp.add(setup);
+
+				for (int i = 0; i < partitioners.length; i++) {
+					TestSetup variant = new TestSetup(setup, setup.name + "+" + partNames[i]);
+					variant.part = partitioners[i];
+					temp.add(variant);
+				}
+			}
+		}
+
+		{ // Block for creating subsort variants
+			// Swap arrays (don't want to add to a collection we're iterating)
+			tests = temp;
+			temp = new ArrayList<>();
+
+			// Create variations of the test with different subsort methods and thresholds
+			for (TestSetup setup : tests) {
+				temp.add(setup);
+
+				for (int i = 0; i < subsorts.length; i++) {
+					// And also one version for each size!
+					for (int k = 0; k < subsortSizes.length; k++) {
+						TestSetup variant = new TestSetup(setup, setup.name + "+" + subsortNames[i] + " below " + subsortSizes[k]);
+						variant.sst = subsortSizes[k];
+						variant.ssort = subsorts[i];
+						temp.add(variant);
+					}
+				}
+			}
+		}
+
+
+
+		// Return completed variation list 
+		return temp;
+	}
+		
 
 	/** Helper function @param array */
 	private static void printArray(int[] array) {
@@ -218,15 +323,15 @@ public class Quick {
 		System.out.println("");
 	}
 	
+	/** Pivot function that always picks middlemost item as pivot*/
+	public static int alwaysPickMiddle(int[] arr, int left, int right) { return (left + right) / 2; }
 	/** Pivot function that always picks the leftmost item as pivot */
-	public static int alwaysPickLeftmost(int arr[], int left, int right) { return left; }
+	public static int alwaysPickLeftmost(int[] arr, int left, int right) { return left; }
+	/** Pivot function that always picks the leftmost item as pivot */
+	public static int alwaysPickRightmost(int[] arr, int left, int right) { return right; }
 	/** Pivot function that picks the median between left/right/middle */
 	public static int medianOfThree(int[] arr, int left, int right) {
-		int aval = arr[left];
-		int bval = arr[right];
-
 		int mid = (right + left) / 2;
-		int mval = arr[mid];
 
 		if (arr[right] < arr[left]) { swap(arr, left, right); }
 		if (arr[mid] < arr[left]) { swap(arr, mid, left); }
@@ -259,24 +364,26 @@ public class Quick {
 	
 	/** Entry into quicksort
 	 * @param array Array to sort 
-	 * @param pivot Function to pick pivot index for sort 
+	 * @param pivp Function to pick pivot index for sort 
 	 * @param subSortThreshold Max size before switching to a different sorting algorithm
 	 * @param subsort Secondary sorting algorithm to switch to under threshold */
 	public static void sort(int[] array, 
-			PivotPicker pivot, 
+			PivotPicker pivp, 
+			Partitioner part,
 			int subSortThreshold, 
 			Subsort subsort) {
-		sort(array, 0, array.length-1, pivot, subSortThreshold, subsort);
+		sort(array, 0, array.length-1, pivp, part, subSortThreshold, subsort);
 	}
 	/** Actual quicksort
 	 * @param left low index of region to sort 
 	 * @param right high index of region to sort 
 	 * @param array Array to sort 
-	 * @param pivot Function to pick pivot index for sort 
+	 * @param pivp Function to pick pivot index for sort
 	 * @param subSortThreshold Max size before switching to a different sorting algorithm
 	 * @param subsort Secondary sorting algorithm to switch to under threshold */
 	public static void sort(int[] array, int left, int right,
-			PivotPicker pp, 
+			PivotPicker pivp, 
+			Partitioner part,
 			int subSortThreshold, 
 			Subsort subsort) {
 		// Span length of elements to sort
@@ -297,47 +404,23 @@ public class Quick {
 		/// Based on span, pick using recursive quicksort or using secondary sorting algorithm
 		if (span > subSortThreshold || subsort == null) {
 			// use quicksort if over threshold or no secondary 
-			int pivot = (pp != null)
-					? pp.getPivot(array, left, right)
-					: (left + right) / 2;
+			int pivot = pivp.getPivot(array, left, right);
 			
 			
-			int p = partition_Jon(array, left, right, pivot);
+			int p = part.partition(array, left, right, pivot);
 			// Recurse down left/right sides with quicksort
-			sort(array, left, p-1, pp, subSortThreshold, subsort);
-			sort(array, p+1, right, pp, subSortThreshold, subsort);
+			sort(array, left, p-1, pivp, part, subSortThreshold, subsort);
+			sort(array, p+1, right, pivp, part, subSortThreshold, subsort);
 		} else {
 			
 			//System.out.println("Using subsort: " + left + " - " + right);
 			// use provided subsort and call this span finished
-			subsort.sort(array, left, right);;
+			subsort.sort(array, left, right);
 			
 		}
 		
 		
 	}
-	
-	/** Provided example partition method. Doesn't work unless pivot is rightmost element. */
-	private static int partition(int[] arr, int left, int right, int pivot) {
-        int pv = arr[pivot];
-        int i = (left - 1);
-
-        for (int j = left; j < right; j++) {
-            if (arr[j] <= pv) {
-                i++;
-
-                int swapTemp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = swapTemp;
-            }
-        }
-
-        int swapTemp = arr[i + 1];
-        arr[i + 1] = arr[right];
-        arr[right] = swapTemp;
-
-        return i + 1;
-    }
 	
 	/** double-sided partition method I wrote 
 	 * @param array array to partition
@@ -380,11 +463,68 @@ public class Quick {
 		return swapIndex;
 	}
 	
+	public static int partition_Lomuto(int[] array, int left, int right, int pivot) {
+		// Required: Pivot must be placed in leftmost position of subregion
+		swap(array, left, pivot);
+		
+		int p = array[left];
+		int s = left;
+		
+		for (int i = left+1; i <= right; i++) {
+			if (array[i] < p) {
+				s = s + 1; 
+				swap(array, s, i);
+			}
+		}
+		swap(array, left, s);
+		return s;
+	}
+	
+	public static int partition_Hoare(int[] array, int left, int right, int pivot) {
+		// Required: Pivot must be placed in leftmost position of subregion
+		swap(array, left, pivot);
+		
+		int p = array[left];
+		int i = left; int j = right + 1;
+		
+		while (true) {
+			
+			while (true) { 
+				i = i + 1; 
+				if (i >= array.length) { i = array.length-1; break; } 
+				if (array[i] >= p) { break; } 
+			}
+			while (true) { 
+				j = j - 1; 
+				if (j <= -1) { i = 0; break; } 
+				if (array[j] <= p) { break; } 
+			}
+			swap (array, i, j);
+			
+			if (i >= j) { break; }
+		}
+		
+		swap(array, i, j);
+		swap(array, left, j);
+		
+		return j;
+	}
+	
 	/** Generate an int[] with size elements in range [min, max) */
 	public static int[] generateArray(int min, int max, int size) {
 		int[] arr = new int[size];
 		for (int i = 0; i < size; i++) {
 			arr[i] = min + (int)(Math.random() * (max-min));
+		}
+		return arr;
+	}
+
+	/** Generate an int[] with size elements in range [min, max) using the given seed */
+	public static int[] generateArray(int min, int max, int size, long seed) {
+		int[] arr = new int[size];
+		Random rand = new Random(seed);
+		for (int i = 0; i < size; i++) {
+			arr[i] = min + (int)(rand.nextInt(max - min));
 		}
 		return arr;
 	}

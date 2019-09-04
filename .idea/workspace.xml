@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a2797a7-7468-496b-9a99-7f6c06688fba" name="Default Changelist" comment="" />
+    <list default="true" id="1a2797a7-7468-496b-9a99-7f6c06688fba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/quickSort/Quick$TestResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/quickSort/Quick$TestResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/quickSort/Quick$TestSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/quickSort/Quick$TestSetup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/quickSort/Quick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/quickSort/Quick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quick.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Q1j4rN2wx2d2FWHmrP3bc7CMJX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -49,11 +62,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566944807597</updated>
-      <workItem from="1566944811852" duration="3318000" />
+      <workItem from="1566944811852" duration="3688000" />
+      <workItem from="1566971836619" duration="1121000" />
+      <workItem from="1567009113490" duration="2937000" />
+      <workItem from="1567020882962" duration="4468000" />
+      <workItem from="1567481512806" duration="214000" />
+      <workItem from="1567538495717" duration="8718000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

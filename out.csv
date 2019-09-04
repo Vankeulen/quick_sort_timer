@@ -1,37 +1,1369 @@
 Name, Size of 25, Size of 100, Size of 250, Size of 500
-Default,3323,10176,32164,44723
-Always pivot on left,2130,10830,26488,56155
-Median of three,4418,9492,21716,51259
-Median of three+insertion under 32,8498,12667,20150,51252
-Median of three+insertion under 16,1196,8236,23023,56149
-Median of three+insertion under 8,1988,9985,24266,49242
-Always left+insertion under 32,1273,8875,25794,58502
-Always left+insertion under 16,1500,7778,22213,52890
-Always left+insertion under 8,1562,9109,25394,48054
-Default+insertion under 8,1435,7426,22997,51902
-Default+insertion under 16,2149,8243,22683,51459
-Default+insertion under 32,1269,9053,30463,61525
-Presorted+Default,531,1563,4978,10088
-Presorted+Always pivot on left,887,8735,45720,171943
-Presorted+Median of three,425,1806,5027,11465
-Presorted+Median of three+insertion under 32,384,1822,5809,11821
-Presorted+Median of three+insertion under 16,319,1529,7436,11343
-Presorted+Median of three+insertion under 8,316,1501,4309,9793
-Presorted+Always left+insertion under 32,365,8395,53361,156341
-Presorted+Always left+insertion under 16,542,8297,43643,159129
-Presorted+Always left+insertion under 8,665,8574,43902,157900
-Presorted+Default+insertion under 8,303,1558,4180,9421
-Presorted+Default+insertion under 16,398,1479,4586,10097
-Presorted+Default+insertion under 32,365,1756,5882,11729
-Reversed+Default,388,1759,5619,11824
-Reversed+Always pivot on left,956,12549,69576,265036
-Reversed+Median of three,406,1805,5538,15821
-Reversed+Median of three+insertion under 32,526,2044,6410,12703
-Reversed+Median of three+insertion under 16,335,1639,4966,10791
-Reversed+Median of three+insertion under 8,337,1730,4663,10389
-Reversed+Always left+insertion under 32,517,12149,68840,264070
-Reversed+Always left+insertion under 16,680,12170,69018,263547
-Reversed+Always left+insertion under 8,861,12271,69586,265521
-Reversed+Default+insertion under 8,327,1633,4480,9854
-Reversed+Default+insertion under 16,330,1611,4839,10568
-Reversed+Default+insertion under 32,514,1898,6101,12279
+Default,3159,8092,15183,36573
+Default+insertion below 8,2648,7057,17834,29629
+Default+insertion below 10,870,5112,13023,31211
+Default+insertion below 12,1050,5474,17046,29207
+Default+insertion below 14,647,3677,11283,24111
+Default+insertion below 17,686,3537,10448,23272
+Default+insertion below 20,628,3503,10577,29085
+Default+insertion below 24,677,4027,11934,27731
+Default+insertion below 28,824,5170,12515,27485
+Default+insertion below 33,596,4364,19831,33959
+Default+insertion below 38,614,4115,13329,27245
+Default+insertion below 44,659,4365,13416,27770
+Default+insertion below 51,742,5309,12744,28626
+Default+insertion below 59,651,4632,17208,27033
+Default+insertion below 68,598,6117,15460,32100
+Default+insertion below 79,794,5207,14242,28467
+Default+insertion below 91,570,4318,11878,26389
+Default+insertion below 105,545,5131,12652,27236
+Default+insertion below 121,533,4983,14485,30730
+Default+lomuto,2708,10673,22535,18047
+Default+lomuto+insertion below 8,532,2687,9457,17907
+Default+lomuto+insertion below 10,519,2680,7917,17792
+Default+lomuto+insertion below 12,562,2789,7920,18158
+Default+lomuto+insertion below 14,534,2791,8183,18662
+Default+lomuto+insertion below 17,555,3094,8239,19199
+Default+lomuto+insertion below 20,572,3011,8716,19028
+Default+lomuto+insertion below 24,637,3017,8736,19290
+Default+lomuto+insertion below 28,640,3433,9818,20971
+Default+lomuto+insertion below 33,573,3368,9447,21167
+Default+lomuto+insertion below 38,637,3797,10535,21063
+Default+lomuto+insertion below 44,564,3519,10433,24152
+Default+lomuto+insertion below 51,617,4182,14945,33505
+Default+lomuto+insertion below 59,765,5174,12544,24334
+Default+lomuto+insertion below 68,574,4259,11568,24786
+Default+lomuto+insertion below 79,573,4534,12211,26251
+Default+lomuto+insertion below 91,569,4901,13000,27730
+Default+lomuto+insertion below 105,603,6003,13885,29757
+Default+lomuto+insertion below 121,582,6955,15190,32209
+Default+hoare,1902,4278,10098,18790
+Default+hoare+insertion below 8,518,2724,7803,18370
+Default+hoare+insertion below 10,532,2643,7965,17588
+Default+hoare+insertion below 12,516,2662,7893,17313
+Default+hoare+insertion below 14,506,3100,7850,17747
+Default+hoare+insertion below 17,523,2777,8122,18303
+Default+hoare+insertion below 20,540,3109,8085,18144
+Default+hoare+insertion below 24,695,3196,9433,37605
+Default+hoare+insertion below 28,1276,6717,19130,41892
+Default+hoare+insertion below 33,1281,6977,21096,44060
+Default+hoare+insertion below 38,1268,7184,20355,44316
+Default+hoare+insertion below 44,1263,7513,21177,45941
+Default+hoare+insertion below 51,1270,7902,22101,47863
+Default+hoare+insertion below 59,1265,8425,23203,50195
+Default+hoare+insertion below 68,1296,8946,24616,52792
+Default+hoare+insertion below 79,1275,9671,26280,56170
+Default+hoare+insertion below 91,1277,10433,28045,59528
+Default+hoare+insertion below 105,1278,13237,30208,63919
+Default+hoare+insertion below 121,1281,13110,32385,68332
+Default on sorted data,500,1615,4645,10322
+Default on sorted data+insertion below 8,386,1494,3997,8545
+Default on sorted data+insertion below 10,382,1540,3813,8202
+Default on sorted data+insertion below 12,310,1437,3684,8181
+Default on sorted data+insertion below 14,310,1441,4174,9367
+Default on sorted data+insertion below 17,310,1443,4139,9292
+Default on sorted data+insertion below 20,309,1438,4203,9300
+Default on sorted data+insertion below 24,376,1791,4234,9323
+Default on sorted data+insertion below 28,376,1728,4137,11835
+Default on sorted data+insertion below 33,388,1708,6529,11431
+Default on sorted data+insertion below 38,392,1774,6377,11667
+Default on sorted data+insertion below 44,394,1818,6507,11553
+Default on sorted data+insertion below 51,386,4016,6425,11603
+Default on sorted data+insertion below 59,408,3929,6494,11525
+Default on sorted data+insertion below 68,411,4010,10445,27249
+Default on sorted data+insertion below 79,407,4033,10513,27209
+Default on sorted data+insertion below 91,374,4045,10488,27455
+Default on sorted data+insertion below 105,378,6464,10527,27469
+Default on sorted data+insertion below 121,407,6438,10527,27271
+Default on sorted data+lomuto,314,1300,4147,9259
+Default on sorted data+lomuto+insertion below 8,273,1254,3367,7454
+Default on sorted data+lomuto+insertion below 10,276,1251,3400,7454
+Default on sorted data+lomuto+insertion below 12,308,1354,3367,7478
+Default on sorted data+lomuto+insertion below 14,306,1356,3860,10181
+Default on sorted data+lomuto+insertion below 17,303,1365,3951,8908
+Default on sorted data+lomuto+insertion below 20,305,1361,3979,8877
+Default on sorted data+lomuto+insertion below 24,382,1739,3930,8948
+Default on sorted data+lomuto+insertion below 28,414,1785,3904,8998
+Default on sorted data+lomuto+insertion below 33,376,4020,7044,11240
+Default on sorted data+lomuto+insertion below 38,385,1728,6286,10908
+Default on sorted data+lomuto+insertion below 44,375,1780,6585,11014
+Default on sorted data+lomuto+insertion below 51,376,3941,6191,11091
+Default on sorted data+lomuto+insertion below 59,375,3951,6283,15030
+Default on sorted data+lomuto+insertion below 68,378,3903,10482,27211
+Default on sorted data+lomuto+insertion below 79,382,3966,10418,27356
+Default on sorted data+lomuto+insertion below 91,420,3926,10486,27262
+Default on sorted data+lomuto+insertion below 105,407,6446,10519,27244
+Default on sorted data+lomuto+insertion below 121,402,6446,10473,27186
+Default on sorted data+hoare,323,1313,4004,8846
+Default on sorted data+hoare+insertion below 8,263,1194,3112,6789
+Default on sorted data+hoare+insertion below 10,260,1218,3185,6699
+Default on sorted data+hoare+insertion below 12,296,1333,3153,6738
+Default on sorted data+hoare+insertion below 14,299,1316,3637,8217
+Default on sorted data+hoare+insertion below 17,296,1314,3649,8252
+Default on sorted data+hoare+insertion below 20,300,1438,3636,8311
+Default on sorted data+hoare+insertion below 24,384,1661,3672,8344
+Default on sorted data+hoare+insertion below 28,382,1704,3866,8281
+Default on sorted data+hoare+insertion below 33,387,1654,5967,10248
+Default on sorted data+hoare+insertion below 38,390,1656,6046,10741
+Default on sorted data+hoare+insertion below 44,986,4045,11892,10423
+Default on sorted data+hoare+insertion below 51,379,3906,6038,10272
+Default on sorted data+hoare+insertion below 59,403,3873,6089,10099
+Default on sorted data+hoare+insertion below 68,380,3964,10220,26611
+Default on sorted data+hoare+insertion below 79,378,3933,10273,26696
+Default on sorted data+hoare+insertion below 91,375,3933,10301,26642
+Default on sorted data+hoare+insertion below 105,378,6455,10111,26551
+Default on sorted data+hoare+insertion below 121,376,6492,10238,26226
+Default on reversed data,484,1648,4972,5891
+Default on reversed data+insertion below 8,268,1054,2209,4600
+Default on reversed data+insertion below 10,177,824,2270,4652
+Default on reversed data+insertion below 12,201,934,2252,4643
+Default on reversed data+insertion below 14,232,862,2483,5231
+Default on reversed data+insertion below 17,198,851,2339,7696
+Default on reversed data+insertion below 20,352,1572,3368,6991
+Default on reversed data+insertion below 24,395,1167,2857,6655
+Default on reversed data+insertion below 28,337,1001,2420,5290
+Default on reversed data+insertion below 33,389,1044,3242,6251
+Default on reversed data+insertion below 38,320,927,3728,6449
+Default on reversed data+insertion below 44,340,937,3443,6220
+Default on reversed data+insertion below 51,300,2130,3308,6030
+Default on reversed data+insertion below 59,295,1881,3053,5504
+Default on reversed data+insertion below 68,295,2035,4883,12902
+Default on reversed data+insertion below 79,293,1848,4871,13153
+Default on reversed data+insertion below 91,292,1869,4862,14280
+Default on reversed data+insertion below 105,389,6525,5576,15096
+Default on reversed data+insertion below 121,393,6507,5427,15583
+Default on reversed data+lomuto,198,826,2592,5239
+Default on reversed data+lomuto+insertion below 8,160,594,1644,4220
+Default on reversed data+lomuto+insertion below 10,167,789,1998,4166
+Default on reversed data+lomuto+insertion below 12,193,690,1964,4041
+Default on reversed data+lomuto+insertion below 14,310,794,2120,4258
+Default on reversed data+lomuto+insertion below 17,193,736,2231,4906
+Default on reversed data+lomuto+insertion below 20,183,732,2175,4829
+Default on reversed data+lomuto+insertion below 24,294,834,2661,5380
+Default on reversed data+lomuto+insertion below 28,317,1236,2878,6668
+Default on reversed data+lomuto+insertion below 33,294,1311,4432,8833
+Default on reversed data+lomuto+insertion below 38,409,1292,4021,8941
+Default on reversed data+lomuto+insertion below 44,326,1248,4440,9239
+Default on reversed data+lomuto+insertion below 51,394,3020,5243,8322
+Default on reversed data+lomuto+insertion below 59,404,2874,6027,12095
+Default on reversed data+lomuto+insertion below 68,400,3017,9248,19645
+Default on reversed data+lomuto+insertion below 79,333,2932,9362,20108
+Default on reversed data+lomuto+insertion below 91,336,2698,8967,20422
+Default on reversed data+lomuto+insertion below 105,344,6310,9397,19867
+Default on reversed data+lomuto+insertion below 121,295,6199,10176,26520
+Default on reversed data+hoare,217,827,2094,4550
+Default on reversed data+hoare+insertion below 8,132,638,1739,4488
+Default on reversed data+hoare+insertion below 10,180,688,1644,3386
+Default on reversed data+hoare+insertion below 12,124,617,1673,4185
+Default on reversed data+hoare+insertion below 14,158,770,1814,4137
+Default on reversed data+hoare+insertion below 17,143,631,1762,4530
+Default on reversed data+hoare+insertion below 20,122,680,1738,4101
+Default on reversed data+hoare+insertion below 24,293,698,1810,4622
+Default on reversed data+hoare+insertion below 28,322,888,2342,4824
+Default on reversed data+hoare+insertion below 33,295,773,2949,5725
+Default on reversed data+hoare+insertion below 38,453,930,2926,5464
+Default on reversed data+hoare+insertion below 44,301,767,3255,5237
+Default on reversed data+hoare+insertion below 51,400,1980,2813,5719
+Default on reversed data+hoare+insertion below 59,306,1756,3633,6859
+Default on reversed data+hoare+insertion below 68,322,1760,5276,13040
+Default on reversed data+hoare+insertion below 79,292,1729,5209,13342
+Default on reversed data+hoare+insertion below 91,295,1987,5823,13709
+Default on reversed data+hoare+insertion below 105,369,6642,5229,14010
+Default on reversed data+hoare+insertion below 121,346,6643,5415,13656
+Default on Sequence:0xDEADBEEF data,244,1211,3580,8534
+Default on Sequence:0xDEADBEEF data+insertion below 8,206,850,2871,6811
+Default on Sequence:0xDEADBEEF data+insertion below 10,160,857,2571,6135
+Default on Sequence:0xDEADBEEF data+insertion below 12,242,1054,2777,6091
+Default on Sequence:0xDEADBEEF data+insertion below 14,181,767,2509,7401
+Default on Sequence:0xDEADBEEF data+insertion below 17,209,1067,3298,7305
+Default on Sequence:0xDEADBEEF data+insertion below 20,178,955,3175,6559
+Default on Sequence:0xDEADBEEF data+insertion below 24,231,1226,3061,6745
+Default on Sequence:0xDEADBEEF data+insertion below 28,246,1283,3040,7673
+Default on Sequence:0xDEADBEEF data+insertion below 33,273,1249,3480,8210
+Default on Sequence:0xDEADBEEF data+insertion below 38,287,1305,3373,9314
+Default on Sequence:0xDEADBEEF data+insertion below 44,230,1449,4039,10284
+Default on Sequence:0xDEADBEEF data+insertion below 51,401,1554,3661,10610
+Default on Sequence:0xDEADBEEF data+insertion below 59,211,1338,4741,11317
+Default on Sequence:0xDEADBEEF data+insertion below 68,213,1354,5613,13366
+Default on Sequence:0xDEADBEEF data+insertion below 79,220,2557,5699,12991
+Default on Sequence:0xDEADBEEF data+insertion below 91,264,2711,7261,15136
+Default on Sequence:0xDEADBEEF data+insertion below 105,209,4434,8026,21252
+Default on Sequence:0xDEADBEEF data+insertion below 121,231,4722,12002,31274
+Default on Sequence:0xDEADBEEF data+lomuto,228,1107,2539,5830
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 8,195,770,1822,9138
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 10,324,1520,4031,8949
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 12,339,1584,4191,8991
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 14,412,1574,4048,9044
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 17,397,1702,4211,10440
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 20,338,1614,4562,9970
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 24,474,1779,4503,10428
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 28,470,2049,5066,10997
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 33,509,2012,5729,11989
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 38,475,2530,6256,12967
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 44,470,2953,6769,14431
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 51,474,2931,8269,20350
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 59,472,2944,8090,21483
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 68,477,5426,12470,32827
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 79,938,5476,15233,34818
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 91,473,7429,15303,45890
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 105,468,9756,15241,43565
+Default on Sequence:0xDEADBEEF data+lomuto+insertion below 121,473,9528,22569,48681
+Default on Sequence:0xDEADBEEF data+hoare,404,1864,5522,12054
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 8,357,1533,4383,9821
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 10,361,1589,4351,9436
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 12,398,1495,4399,10221
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 14,353,1532,4499,10205
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 17,353,1623,4645,10553
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 20,347,1675,4891,11147
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 24,555,1745,5087,12823
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 28,503,2222,7918,12627
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 33,915,4778,7686,14564
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 38,479,2827,7442,15413
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 44,473,3060,7467,17356
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 51,476,2894,8146,20526
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 59,469,3042,9305,19829
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 68,525,2892,13649,22970
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 79,472,5454,11663,27034
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 91,468,5527,11317,37936
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 105,485,9678,18017,47024
+Default on Sequence:0xDEADBEEF data+hoare+insertion below 121,475,9481,26056,49751
+Default on Sequence:0xCAFEBABE data,481,2382,6479,17567
+Default on Sequence:0xCAFEBABE data+insertion below 8,365,1886,5604,13408
+Default on Sequence:0xCAFEBABE data+insertion below 10,363,1760,5368,12795
+Default on Sequence:0xCAFEBABE data+insertion below 12,373,1737,5581,12892
+Default on Sequence:0xCAFEBABE data+insertion below 14,379,1933,5432,13110
+Default on Sequence:0xCAFEBABE data+insertion below 17,429,1721,5748,13707
+Default on Sequence:0xCAFEBABE data+insertion below 20,456,2119,5734,14531
+Default on Sequence:0xCAFEBABE data+insertion below 24,495,2133,6141,15125
+Default on Sequence:0xCAFEBABE data+insertion below 28,491,2220,6874,15731
+Default on Sequence:0xCAFEBABE data+insertion below 33,488,2196,6671,14807
+Default on Sequence:0xCAFEBABE data+insertion below 38,488,2522,7173,18586
+Default on Sequence:0xCAFEBABE data+insertion below 44,489,3129,7812,18321
+Default on Sequence:0xCAFEBABE data+insertion below 51,491,3027,8056,22753
+Default on Sequence:0xCAFEBABE data+insertion below 59,498,4151,9948,24904
+Default on Sequence:0xCAFEBABE data+insertion below 68,493,4676,10707,32169
+Default on Sequence:0xCAFEBABE data+insertion below 79,537,4650,10711,34707
+Default on Sequence:0xCAFEBABE data+insertion below 91,496,4571,10775,40164
+Default on Sequence:0xCAFEBABE data+insertion below 105,490,9557,16995,42086
+Default on Sequence:0xCAFEBABE data+insertion below 121,490,9635,20318,41362
+Default on Sequence:0xCAFEBABE data+lomuto,498,1898,5717,11559
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 8,435,1487,4785,18177
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 10,365,1635,4300,9192
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 12,366,1527,4590,8826
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 14,171,832,2684,4901
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 17,191,820,2333,4902
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 20,224,796,2439,4844
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 24,222,739,3175,5338
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 28,226,852,3040,5552
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 33,225,1412,2866,6156
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 38,224,1176,2933,8088
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 44,249,1301,3781,8611
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 51,245,1500,3640,9066
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 59,222,1382,3657,10181
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 68,227,2330,3735,10796
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 79,222,2378,5378,14000
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 91,220,2300,5501,14690
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 105,245,4966,5681,15185
+Default on Sequence:0xCAFEBABE data+lomuto+insertion below 121,219,4698,5226,23056
+Default on Sequence:0xCAFEBABE data+hoare,203,934,2761,5557
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 8,147,680,2158,4209
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 10,149,657,2215,4192
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 12,144,677,2262,4200
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 14,163,676,2298,4264
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 17,187,711,2410,4866
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 20,206,850,2669,4704
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 24,340,831,2613,5139
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 28,220,813,2756,5343
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 33,222,819,3057,5329
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 38,220,1230,3235,7632
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 44,265,1452,4402,8572
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 51,261,1499,3563,9548
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 59,232,1365,4327,10203
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 68,261,2706,6542,13861
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 79,222,2040,4779,15976
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 91,248,3246,10992,23644
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 105,429,5862,7096,19825
+Default on Sequence:0xCAFEBABE data+hoare+insertion below 121,224,4828,6432,21147
+Default on Sequence:0xBAADF00D data,197,1059,3276,7954
+Default on Sequence:0xBAADF00D data+insertion below 8,218,902,2665,5925
+Default on Sequence:0xBAADF00D data+insertion below 10,155,910,2270,6308
+Default on Sequence:0xBAADF00D data+insertion below 12,170,799,2863,6114
+Default on Sequence:0xBAADF00D data+insertion below 14,157,807,2991,6402
+Default on Sequence:0xBAADF00D data+insertion below 17,157,1075,2822,9043
+Default on Sequence:0xBAADF00D data+insertion below 20,216,960,3061,7015
+Default on Sequence:0xBAADF00D data+insertion below 24,298,928,5318,17318
+Default on Sequence:0xBAADF00D data+insertion below 28,502,1401,3721,8903
+Default on Sequence:0xBAADF00D data+insertion below 33,265,1298,3361,7827
+Default on Sequence:0xBAADF00D data+insertion below 38,280,1349,2882,8074
+Default on Sequence:0xBAADF00D data+insertion below 44,252,1426,3708,10354
+Default on Sequence:0xBAADF00D data+insertion below 51,282,1621,4448,10849
+Default on Sequence:0xBAADF00D data+insertion below 59,227,1294,4573,10701
+Default on Sequence:0xBAADF00D data+insertion below 68,231,1301,5365,13309
+Default on Sequence:0xBAADF00D data+insertion below 79,266,2722,7025,14069
+Default on Sequence:0xBAADF00D data+insertion below 91,225,2558,7406,16548
+Default on Sequence:0xBAADF00D data+insertion below 105,309,4575,7471,19516
+Default on Sequence:0xBAADF00D data+insertion below 121,290,4304,15325,25788
+Default on Sequence:0xBAADF00D data+lomuto,192,742,2320,6273
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 8,148,611,2194,5314
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 10,191,708,2094,5566
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 12,155,796,2126,5376
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 14,155,1436,4314,11235
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 17,346,1488,4513,11265
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 20,351,1533,4885,12333
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 24,497,1785,5181,12654
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 28,497,1985,5368,13304
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 33,495,2888,5200,14439
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 38,498,2777,6941,17402
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 44,497,2729,6954,18708
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 51,517,2692,6515,19479
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 59,497,2728,9069,24826
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 68,498,2727,11096,24997
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 79,560,5111,13338,31730
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 91,786,5109,15920,29867
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 105,500,9345,19334,29796
+Default on Sequence:0xBAADF00D data+lomuto+insertion below 121,496,9228,23499,29996
+Default on Sequence:0xBAADF00D data+hoare,459,1946,5009,14157
+Default on Sequence:0xBAADF00D data+hoare+insertion below 8,353,1579,4237,11411
+Default on Sequence:0xBAADF00D data+hoare+insertion below 10,332,1621,5578,11785
+Default on Sequence:0xBAADF00D data+hoare+insertion below 12,350,1569,4253,10890
+Default on Sequence:0xBAADF00D data+hoare+insertion below 14,329,1610,4221,10729
+Default on Sequence:0xBAADF00D data+hoare+insertion below 17,329,1652,4484,11185
+Default on Sequence:0xBAADF00D data+hoare+insertion below 20,331,1657,4942,12503
+Default on Sequence:0xBAADF00D data+hoare+insertion below 24,499,1804,4960,12555
+Default on Sequence:0xBAADF00D data+hoare+insertion below 28,499,2275,5279,14203
+Default on Sequence:0xBAADF00D data+hoare+insertion below 33,557,2303,5686,16265
+Default on Sequence:0xBAADF00D data+hoare+insertion below 38,501,2671,6080,15714
+Default on Sequence:0xBAADF00D data+hoare+insertion below 44,496,2693,6449,18611
+Default on Sequence:0xBAADF00D data+hoare+insertion below 51,498,2641,8600,25023
+Default on Sequence:0xBAADF00D data+hoare+insertion below 59,498,3074,9113,29885
+Default on Sequence:0xBAADF00D data+hoare+insertion below 68,497,2646,10851,29521
+Default on Sequence:0xBAADF00D data+hoare+insertion below 79,498,5221,12856,39727
+Default on Sequence:0xBAADF00D data+hoare+insertion below 91,1061,9774,16221,32904
+Default on Sequence:0xBAADF00D data+hoare+insertion below 105,497,9256,15007,42635
+Default on Sequence:0xBAADF00D data+hoare+insertion below 121,502,9345,27956,52548
+Always Pick Leftmost,4272,25027,19373,41801
+Always Pick Leftmost+insertion below 8,1139,6035,18052,40251
+Always Pick Leftmost+insertion below 10,1119,6109,17880,39850
+Always Pick Leftmost+insertion below 12,1133,6127,18076,43310
+Always Pick Leftmost+insertion below 14,1874,7301,18169,40406
+Always Pick Leftmost+insertion below 17,1161,6287,19278,41411
+Always Pick Leftmost+insertion below 20,1222,6461,18892,41848
+Always Pick Leftmost+insertion below 24,1287,6604,19291,42850
+Always Pick Leftmost+insertion below 28,1259,6837,19792,43745
+Always Pick Leftmost+insertion below 33,1272,7013,20278,44779
+Always Pick Leftmost+insertion below 38,1261,7281,21335,45846
+Always Pick Leftmost+insertion below 44,1262,7522,21579,47325
+Always Pick Leftmost+insertion below 51,1269,7919,22607,49512
+Always Pick Leftmost+insertion below 59,1260,8353,23762,51543
+Always Pick Leftmost+insertion below 68,1283,9449,25031,54168
+Always Pick Leftmost+insertion below 79,1273,9472,26332,56651
+Always Pick Leftmost+insertion below 91,1264,10189,28178,60159
+Always Pick Leftmost+insertion below 105,1266,13349,30195,64472
+Always Pick Leftmost+insertion below 121,1284,13341,32537,68762
+Always Pick Leftmost+lomuto,1261,6112,17740,39432
+Always Pick Leftmost+lomuto+insertion below 8,1166,5851,17263,37838
+Always Pick Leftmost+lomuto+insertion below 10,1102,5867,17033,37814
+Always Pick Leftmost+lomuto+insertion below 12,1108,5970,17274,38384
+Always Pick Leftmost+lomuto+insertion below 14,1126,5988,17564,38632
+Always Pick Leftmost+lomuto+insertion below 17,1148,6121,17764,39603
+Always Pick Leftmost+lomuto+insertion below 20,1205,6255,18838,40074
+Always Pick Leftmost+lomuto+insertion below 24,1261,6442,18629,41224
+Always Pick Leftmost+lomuto+insertion below 28,1262,6647,19114,41935
+Always Pick Leftmost+lomuto+insertion below 33,1262,6887,19709,43163
+Always Pick Leftmost+lomuto+insertion below 38,1259,7152,20348,44453
+Always Pick Leftmost+lomuto+insertion below 44,1263,7495,21159,46003
+Always Pick Leftmost+lomuto+insertion below 51,1265,7816,21981,47799
+Always Pick Leftmost+lomuto+insertion below 59,1262,8245,23092,49933
+Always Pick Leftmost+lomuto+insertion below 68,1259,8830,24577,52452
+Always Pick Leftmost+lomuto+insertion below 79,1261,9434,25987,55447
+Always Pick Leftmost+lomuto+insertion below 91,1282,10187,27940,59126
+Always Pick Leftmost+lomuto+insertion below 105,1261,13278,29816,63211
+Always Pick Leftmost+lomuto+insertion below 121,1264,13252,32200,68081
+Always Pick Leftmost+hoare,1300,6588,18736,40830
+Always Pick Leftmost+hoare+insertion below 8,1159,5935,17237,37966
+Always Pick Leftmost+hoare+insertion below 10,1131,5942,17968,38398
+Always Pick Leftmost+hoare+insertion below 12,1130,6014,17424,40606
+Always Pick Leftmost+hoare+insertion below 14,1170,6055,17588,38827
+Always Pick Leftmost+hoare+insertion below 17,1238,6194,19496,43734
+Always Pick Leftmost+hoare+insertion below 20,1708,7364,18218,41546
+Always Pick Leftmost+hoare+insertion below 24,1322,7561,19705,48414
+Always Pick Leftmost+hoare+insertion below 28,1465,6668,19097,43468
+Always Pick Leftmost+hoare+insertion below 33,1262,6900,19669,43058
+Always Pick Leftmost+hoare+insertion below 38,1260,7114,20236,44226
+Always Pick Leftmost+hoare+insertion below 44,1264,7463,26723,46002
+Always Pick Leftmost+hoare+insertion below 51,1266,7793,21958,47704
+Always Pick Leftmost+hoare+insertion below 59,1277,8369,23209,50276
+Always Pick Leftmost+hoare+insertion below 68,1259,8749,24387,52953
+Always Pick Leftmost+hoare+insertion below 79,1264,9675,25945,55685
+Always Pick Leftmost+hoare+insertion below 91,1265,10173,27700,58816
+Always Pick Leftmost+hoare+insertion below 105,1263,13345,29975,63561
+Always Pick Leftmost+hoare+insertion below 121,1270,13509,32215,68264
+Always Pick Leftmost on sorted data,839,7756,36382,124619
+Always Pick Leftmost on sorted data+insertion below 8,714,7513,35309,124071
+Always Pick Leftmost on sorted data+insertion below 10,713,7469,35404,124378
+Always Pick Leftmost on sorted data+insertion below 12,641,7412,35728,123775
+Always Pick Leftmost on sorted data+insertion below 14,606,7507,44290,133772
+Always Pick Leftmost on sorted data+insertion below 17,562,7501,35205,124015
+Always Pick Leftmost on sorted data+insertion below 20,509,7360,35100,124782
+Always Pick Leftmost on sorted data+insertion below 24,439,7211,35560,127008
+Always Pick Leftmost on sorted data+insertion below 28,437,7353,35099,123916
+Always Pick Leftmost on sorted data+insertion below 33,435,7149,34943,123387
+Always Pick Leftmost on sorted data+insertion below 38,438,7103,34924,124342
+Always Pick Leftmost on sorted data+insertion below 44,447,7026,34926,123769
+Always Pick Leftmost on sorted data+insertion below 51,438,6965,35136,123482
+Always Pick Leftmost on sorted data+insertion below 59,436,6839,34626,123581
+Always Pick Leftmost on sorted data+insertion below 68,437,6859,34704,123852
+Always Pick Leftmost on sorted data+insertion below 79,436,6940,36366,124930
+Always Pick Leftmost on sorted data+insertion below 91,494,6890,35113,123757
+Always Pick Leftmost on sorted data+insertion below 105,436,6754,34980,123399
+Always Pick Leftmost on sorted data+insertion below 121,437,6733,34857,131532
+Always Pick Leftmost on sorted data+lomuto,750,7094,30783,101908
+Always Pick Leftmost on sorted data+lomuto+insertion below 8,629,7220,31028,99440
+Always Pick Leftmost on sorted data+lomuto+insertion below 10,603,6956,31680,100828
+Always Pick Leftmost on sorted data+lomuto+insertion below 12,577,7385,30757,98860
+Always Pick Leftmost on sorted data+lomuto+insertion below 14,552,6894,30593,110155
+Always Pick Leftmost on sorted data+lomuto+insertion below 17,522,6947,33322,116966
+Always Pick Leftmost on sorted data+lomuto+insertion below 20,488,7265,31521,104483
+Always Pick Leftmost on sorted data+lomuto+insertion below 24,474,7370,31689,99313
+Always Pick Leftmost on sorted data+lomuto+insertion below 28,434,6784,30663,103095
+Always Pick Leftmost on sorted data+lomuto+insertion below 33,506,6805,30772,121065
+Always Pick Leftmost on sorted data+lomuto+insertion below 38,439,7455,32151,101878
+Always Pick Leftmost on sorted data+lomuto+insertion below 44,461,6723,30694,99517
+Always Pick Leftmost on sorted data+lomuto+insertion below 51,438,6822,30578,100138
+Always Pick Leftmost on sorted data+lomuto+insertion below 59,435,6569,31418,100580
+Always Pick Leftmost on sorted data+lomuto+insertion below 68,436,6523,31211,101166
+Always Pick Leftmost on sorted data+lomuto+insertion below 79,435,6433,30260,98900
+Always Pick Leftmost on sorted data+lomuto+insertion below 91,435,6851,30940,99363
+Always Pick Leftmost on sorted data+lomuto+insertion below 105,435,6768,31187,99726
+Always Pick Leftmost on sorted data+lomuto+insertion below 121,443,6884,32068,102408
+Always Pick Leftmost on sorted data+hoare,986,9797,46624,166399
+Always Pick Leftmost on sorted data+hoare+insertion below 8,928,9490,46072,164016
+Always Pick Leftmost on sorted data+hoare+insertion below 10,793,9553,45687,166773
+Always Pick Leftmost on sorted data+hoare+insertion below 12,848,9480,46053,162103
+Always Pick Leftmost on sorted data+hoare+insertion below 14,710,9392,45661,162897
+Always Pick Leftmost on sorted data+hoare+insertion below 17,655,9477,46443,166373
+Always Pick Leftmost on sorted data+hoare+insertion below 20,582,9548,46031,162527
+Always Pick Leftmost on sorted data+hoare+insertion below 24,438,9118,46016,165933
+Always Pick Leftmost on sorted data+hoare+insertion below 28,450,9103,45993,165039
+Always Pick Leftmost on sorted data+hoare+insertion below 33,448,8817,45754,165701
+Always Pick Leftmost on sorted data+hoare+insertion below 38,438,8655,44999,163284
+Always Pick Leftmost on sorted data+hoare+insertion below 44,498,8467,42933,80165
+Always Pick Leftmost on sorted data+hoare+insertion below 51,211,3733,20503,80508
+Always Pick Leftmost on sorted data+hoare+insertion below 59,212,3619,23683,82445
+Always Pick Leftmost on sorted data+hoare+insertion below 68,218,3685,22344,82984
+Always Pick Leftmost on sorted data+hoare+insertion below 79,194,3892,22149,77327
+Always Pick Leftmost on sorted data+hoare+insertion below 91,195,3167,21858,79855
+Always Pick Leftmost on sorted data+hoare+insertion below 105,212,3209,21482,81873
+Always Pick Leftmost on sorted data+hoare+insertion below 121,193,3610,20712,84020
+Always Pick Leftmost on reversed data,397,4710,23988,90100
+Always Pick Leftmost on reversed data+insertion below 8,427,4703,23247,85765
+Always Pick Leftmost on reversed data+insertion below 10,355,4579,23104,81108
+Always Pick Leftmost on reversed data+insertion below 12,326,4026,22128,80241
+Always Pick Leftmost on reversed data+insertion below 14,360,4137,23195,85292
+Always Pick Leftmost on reversed data+insertion below 17,363,4550,21589,79562
+Always Pick Leftmost on reversed data+insertion below 20,306,4013,22487,166351
+Always Pick Leftmost on reversed data+insertion below 24,690,8985,47025,174057
+Always Pick Leftmost on reversed data+insertion below 28,653,8923,54989,182522
+Always Pick Leftmost on reversed data+insertion below 33,650,8876,47037,189688
+Always Pick Leftmost on reversed data+insertion below 38,707,9168,46834,174325
+Always Pick Leftmost on reversed data+insertion below 44,649,9311,48306,176036
+Always Pick Leftmost on reversed data+insertion below 51,658,9087,46796,173952
+Always Pick Leftmost on reversed data+insertion below 59,651,9378,47184,173793
+Always Pick Leftmost on reversed data+insertion below 68,691,11609,49121,175949
+Always Pick Leftmost on reversed data+insertion below 79,649,10593,49009,182543
+Always Pick Leftmost on reversed data+insertion below 91,692,11816,50112,177885
+Always Pick Leftmost on reversed data+insertion below 105,651,13083,53971,193638
+Always Pick Leftmost on reversed data+insertion below 121,655,12647,60503,195294
+Always Pick Leftmost on reversed data+lomuto,908,9657,52871,166940
+Always Pick Leftmost on reversed data+lomuto+insertion below 8,745,8607,44405,162669
+Always Pick Leftmost on reversed data+lomuto+insertion below 10,748,9323,45637,162700
+Always Pick Leftmost on reversed data+lomuto+insertion below 12,726,8473,44647,162366
+Always Pick Leftmost on reversed data+lomuto+insertion below 14,683,8409,45336,164245
+Always Pick Leftmost on reversed data+lomuto+insertion below 17,695,8407,44757,161686
+Always Pick Leftmost on reversed data+lomuto+insertion below 20,671,8863,45064,168622
+Always Pick Leftmost on reversed data+lomuto+insertion below 24,665,8451,44409,160956
+Always Pick Leftmost on reversed data+lomuto+insertion below 28,657,8411,44274,166276
+Always Pick Leftmost on reversed data+lomuto+insertion below 33,653,8536,45305,164791
+Always Pick Leftmost on reversed data+lomuto+insertion below 38,656,8822,46806,165291
+Always Pick Leftmost on reversed data+lomuto+insertion below 44,650,9032,45602,163410
+Always Pick Leftmost on reversed data+lomuto+insertion below 51,656,8827,46026,161576
+Always Pick Leftmost on reversed data+lomuto+insertion below 59,656,9182,45181,161864
+Always Pick Leftmost on reversed data+lomuto+insertion below 68,651,11227,47535,164106
+Always Pick Leftmost on reversed data+lomuto+insertion below 79,735,10438,47841,174931
+Always Pick Leftmost on reversed data+lomuto+insertion below 91,668,11643,47319,164151
+Always Pick Leftmost on reversed data+lomuto+insertion below 105,649,12457,48972,194218
+Always Pick Leftmost on reversed data+lomuto+insertion below 121,678,13411,62463,210229
+Always Pick Leftmost on reversed data+hoare,1094,7932,36269,142148
+Always Pick Leftmost on reversed data+hoare+insertion below 8,679,7675,37532,143246
+Always Pick Leftmost on reversed data+hoare+insertion below 10,1268,9583,60204,129629
+Always Pick Leftmost on reversed data+hoare+insertion below 12,643,7524,36577,157655
+Always Pick Leftmost on reversed data+hoare+insertion below 14,1014,12500,40795,148848
+Always Pick Leftmost on reversed data+hoare+insertion below 17,649,8404,42036,143184
+Always Pick Leftmost on reversed data+hoare+insertion below 20,1358,12411,38347,140181
+Always Pick Leftmost on reversed data+hoare+insertion below 24,654,7722,43260,195420
+Always Pick Leftmost on reversed data+hoare+insertion below 28,681,7774,35904,141443
+Always Pick Leftmost on reversed data+hoare+insertion below 33,669,7651,35520,126630
+Always Pick Leftmost on reversed data+hoare+insertion below 38,656,7946,35666,133493
+Always Pick Leftmost on reversed data+hoare+insertion below 44,1520,11111,72194,177906
+Always Pick Leftmost on reversed data+hoare+insertion below 51,658,8922,38522,133564
+Always Pick Leftmost on reversed data+hoare+insertion below 59,652,8935,36957,132030
+Always Pick Leftmost on reversed data+hoare+insertion below 68,658,10303,43786,132127
+Always Pick Leftmost on reversed data+hoare+insertion below 79,750,10133,38824,140837
+Always Pick Leftmost on reversed data+hoare+insertion below 91,668,11528,40394,136702
+Always Pick Leftmost on reversed data+hoare+insertion below 105,656,14157,69432,143145
+Always Pick Leftmost on reversed data+hoare+insertion below 121,658,12487,47210,161467
+Always Pick Leftmost on Sequence:0xDEADBEEF data,472,3855,8392,26862
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 8,629,3810,6409,14406
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 10,365,1771,6028,14356
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 12,355,1807,6625,21203
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 14,370,3000,6987,16036
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 17,379,2019,6245,21304
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 20,371,2000,6972,17782
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 24,473,2246,7214,19776
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 28,475,2129,10165,18674
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 33,489,3079,12934,19804
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 38,815,3029,7992,21615
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 44,816,4326,8402,18998
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 51,493,5203,9378,25219
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 59,474,4241,13499,28590
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 68,493,5532,11482,31004
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 79,481,5141,11736,38224
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 91,480,4257,16884,40531
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 105,501,10091,22839,51538
+Always Pick Leftmost on Sequence:0xDEADBEEF data+insertion below 121,494,11406,29720,59431
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto,386,2794,5544,12965
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 8,315,1591,6968,14952
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 10,580,1634,6746,13680
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 12,315,2139,4221,11517
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 14,328,1594,5062,13170
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 17,355,1743,6586,11696
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 20,421,1806,6398,22985
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 24,485,1864,6759,20560
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 28,604,4984,8172,14376
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 33,661,2554,8551,21643
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 38,474,4528,7989,24690
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 44,787,3626,7292,24190
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 51,645,5387,16711,24605
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 59,677,4314,18933,28460
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 68,481,5035,14673,33606
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 79,497,4349,19432,48519
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 91,1129,4886,14109,48431
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 105,478,11574,27765,48034
+Always Pick Leftmost on Sequence:0xDEADBEEF data+lomuto+insertion below 121,518,10858,24816,49499
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare,416,1790,6184,17088
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 8,313,1959,4416,16871
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 10,313,1404,5074,11793
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 12,375,1838,4501,12324
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 14,311,1551,5108,12759
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 17,346,2061,7870,13691
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 20,569,2948,6402,13912
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 24,481,1730,5550,13173
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 28,478,1912,6083,14827
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 33,477,2130,6960,14729
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 38,677,2462,7418,17372
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 44,534,3465,9178,16892
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 51,564,4489,8546,22759
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 59,479,4244,9382,23339
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 68,471,5073,11777,30132
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 79,501,4460,10507,32167
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 91,548,4506,14146,36828
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 105,487,10928,20171,41446
+Always Pick Leftmost on Sequence:0xDEADBEEF data+hoare+insertion below 121,484,10582,30169,51970
+Always Pick Leftmost on Sequence:0xCAFEBABE data,846,6108,9972,23838
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 8,367,1925,5728,16398
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 10,368,1909,6090,14123
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 12,372,2115,5477,15984
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 14,370,1775,6938,16043
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 17,412,1877,6180,14579
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 20,406,2127,5854,26579
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 24,549,2160,7905,23647
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 28,511,4063,9420,26121
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 33,498,2987,8630,23671
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 38,781,4610,12768,28282
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 44,952,2750,10465,28034
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 51,523,4929,11772,27506
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 59,569,4618,12287,30486
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 68,1543,5589,14251,31974
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 79,723,5903,44347,43500
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 91,905,5301,19889,49502
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 105,569,12597,31289,44535
+Always Pick Leftmost on Sequence:0xCAFEBABE data+insertion below 121,489,10965,15264,74152
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto,398,3679,9592,12464
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 8,299,2379,6819,16073
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 10,310,1751,5118,17378
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 12,643,3117,8908,13325
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 14,317,1570,5021,11147
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 17,382,1550,7923,17533
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 20,512,1791,8998,21927
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 24,494,3299,5144,20564
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 28,544,2774,5250,13308
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 33,548,2164,8122,16093
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 38,534,2225,7657,16051
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 44,490,2158,8818,32390
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 51,1099,3986,10673,29307
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 59,578,3959,10085,35367
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 68,538,8912,20475,35453
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 79,1100,6101,18999,41684
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 91,733,7318,19993,41180
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 105,507,13121,27327,59171
+Always Pick Leftmost on Sequence:0xCAFEBABE data+lomuto+insertion below 121,773,12349,27943,63838
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare,492,2344,8684,17538
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 8,396,1921,5172,12826
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 10,392,3172,5901,21784
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 12,812,2547,5749,17588
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 14,745,2538,9170,12162
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 17,387,2585,5084,12995
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 20,518,1766,6167,12601
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 24,538,3519,7607,12799
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 28,492,1882,7008,20804
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 33,493,4035,6409,32662
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 38,792,5517,15289,31698
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 44,660,4343,12191,20791
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 51,557,2760,8997,30901
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 59,1052,3997,13269,29466
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 68,793,6402,16027,26206
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 79,558,5106,14939,26881
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 91,492,5073,15034,35226
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 105,501,10865,18073,45646
+Always Pick Leftmost on Sequence:0xCAFEBABE data+hoare+insertion below 121,537,11513,16473,48267
+Always Pick Leftmost on Sequence:0xBAADF00D data,648,2284,8791,24661
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 8,355,2268,10762,20970
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 10,348,1695,7194,15948
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 12,339,1808,5424,14180
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 14,340,2194,6302,16097
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 17,408,1707,5637,19186
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 20,530,3354,7948,21983
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 24,501,2197,6686,19438
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 28,512,2281,6553,21669
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 33,503,2233,10086,23408
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 38,813,2237,8861,27874
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 44,548,3474,10692,34360
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 51,813,4821,12235,35434
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 59,513,3770,19999,35995
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 68,507,3615,16710,32333
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 79,655,6730,17141,49202
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 91,620,6890,15619,42786
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 105,508,9639,18246,52599
+Always Pick Leftmost on Sequence:0xBAADF00D data+insertion below 121,956,11344,17074,54850
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto,634,1795,8036,20729
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 8,636,3094,6122,15346
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 10,295,1993,8094,12858
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 12,333,1611,7325,12236
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 14,631,3404,4455,11903
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 17,371,1764,4895,16040
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 20,514,2419,5227,16673
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 24,581,2399,9249,14045
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 28,507,1915,5613,13010
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 33,518,2738,5548,16078
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 38,505,2099,6650,14937
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 44,504,2011,7796,17947
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 51,509,2936,8038,20231
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 59,505,3525,10553,19762
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 68,502,3778,12081,22101
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 79,507,6247,11753,24809
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 91,500,6145,15719,38770
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 105,501,9709,16703,46051
+Always Pick Leftmost on Sequence:0xBAADF00D data+lomuto+insertion below 121,499,9606,16426,43645
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare,467,2008,5269,13913
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 8,312,1513,4418,11291
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 10,308,1480,4408,12245
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 12,305,1607,4428,11110
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 14,304,1478,4541,11227
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 17,401,1478,4673,11090
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 20,376,1685,6806,13853
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 24,502,1908,6349,17451
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 28,633,1845,5463,14812
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 33,797,2042,8943,28308
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 38,854,6503,21032,41276
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 44,532,2928,17051,36906
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 51,508,3284,9248,31469
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 59,541,4496,18205,37165
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 68,539,5087,17652,31809
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 79,515,6346,15765,40391
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 91,504,6724,15854,43574
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 105,510,10098,15475,43676
+Always Pick Leftmost on Sequence:0xBAADF00D data+hoare+insertion below 121,541,10339,18934,62250
+Always Pick Rightmost,2867,10073,21839,48249
+Always Pick Rightmost+insertion below 8,1177,6283,18347,40731
+Always Pick Rightmost+insertion below 10,1171,6435,18869,41961
+Always Pick Rightmost+insertion below 12,1157,6742,19904,47644
+Always Pick Rightmost+insertion below 14,1430,6725,18614,42030
+Always Pick Rightmost+insertion below 17,1736,6984,22292,46113
+Always Pick Rightmost+insertion below 20,1210,6557,19453,42444
+Always Pick Rightmost+insertion below 24,1283,6693,21832,43799
+Always Pick Rightmost+insertion below 28,1264,6887,20030,44821
+Always Pick Rightmost+insertion below 33,1260,7257,20726,45430
+Always Pick Rightmost+insertion below 38,1253,7319,21044,46353
+Always Pick Rightmost+insertion below 44,1267,7772,21874,48074
+Always Pick Rightmost+insertion below 51,1284,8102,22991,50662
+Always Pick Rightmost+insertion below 59,1277,8598,23964,52818
+Always Pick Rightmost+insertion below 68,1259,9051,25936,59809
+Always Pick Rightmost+insertion below 79,1286,9950,28030,65159
+Always Pick Rightmost+insertion below 91,1507,10396,28813,62044
+Always Pick Rightmost+insertion below 105,1795,15207,34920,64803
+Always Pick Rightmost+insertion below 121,1276,13305,33267,70749
+Always Pick Rightmost+lomuto,1421,6634,19963,42051
+Always Pick Rightmost+lomuto+insertion below 8,1193,5970,17986,43765
+Always Pick Rightmost+lomuto+insertion below 10,1166,6049,17342,43260
+Always Pick Rightmost+lomuto+insertion below 12,1255,6190,17558,38984
+Always Pick Rightmost+lomuto+insertion below 14,1171,5995,17521,39871
+Always Pick Rightmost+lomuto+insertion below 17,1199,6182,17970,39575
+Always Pick Rightmost+lomuto+insertion below 20,1200,6331,18443,40940
+Always Pick Rightmost+lomuto+insertion below 24,1270,6621,18945,41497
+Always Pick Rightmost+lomuto+insertion below 28,1269,6812,19322,42723
+Always Pick Rightmost+lomuto+insertion below 33,1269,7028,19905,43727
+Always Pick Rightmost+lomuto+insertion below 38,1292,7348,21037,44928
+Always Pick Rightmost+lomuto+insertion below 44,1254,7548,21339,46407
+Always Pick Rightmost+lomuto+insertion below 51,1260,7908,22534,48317
+Always Pick Rightmost+lomuto+insertion below 59,1267,8364,23453,51456
+Always Pick Rightmost+lomuto+insertion below 68,1313,10467,24675,53534
+Always Pick Rightmost+lomuto+insertion below 79,1392,9773,27584,56114
+Always Pick Rightmost+lomuto+insertion below 91,1358,10370,28299,60228
+Always Pick Rightmost+lomuto+insertion below 105,1300,13447,31896,64427
+Always Pick Rightmost+lomuto+insertion below 121,1269,13515,32555,68344
+Always Pick Rightmost+hoare,1350,6825,19136,42000
+Always Pick Rightmost+hoare+insertion below 8,1176,5983,17270,37976
+Always Pick Rightmost+hoare+insertion below 10,1131,5962,17318,38109
+Always Pick Rightmost+hoare+insertion below 12,1129,6821,18166,38042
+Always Pick Rightmost+hoare+insertion below 14,1140,6033,17736,38954
+Always Pick Rightmost+hoare+insertion below 17,1209,6175,17852,39166
+Always Pick Rightmost+hoare+insertion below 20,1226,6307,18185,43382
+Always Pick Rightmost+hoare+insertion below 24,1261,6534,18690,40959
+Always Pick Rightmost+hoare+insertion below 28,1267,6732,19299,42044
+Always Pick Rightmost+hoare+insertion below 33,1254,6927,19852,43098
+Always Pick Rightmost+hoare+insertion below 38,1257,7197,20544,44370
+Always Pick Rightmost+hoare+insertion below 44,1286,7597,21473,46669
+Always Pick Rightmost+hoare+insertion below 51,1314,7894,22322,47897
+Always Pick Rightmost+hoare+insertion below 59,1254,8286,23156,50796
+Always Pick Rightmost+hoare+insertion below 68,1260,8821,24515,52439
+Always Pick Rightmost+hoare+insertion below 79,1263,9691,26420,55563
+Always Pick Rightmost+hoare+insertion below 91,1253,10236,27715,59176
+Always Pick Rightmost+hoare+insertion below 105,1262,13245,29852,63213
+Always Pick Rightmost+hoare+insertion below 121,1262,13312,32231,68753
+Always Pick Rightmost on sorted data,1086,11520,60539,227665
+Always Pick Rightmost on sorted data+insertion below 8,941,11228,60016,229826
+Always Pick Rightmost on sorted data+insertion below 10,892,11208,63193,226802
+Always Pick Rightmost on sorted data+insertion below 12,839,11115,59907,230741
+Always Pick Rightmost on sorted data+insertion below 14,789,12073,61759,236894
+Always Pick Rightmost on sorted data+insertion below 17,696,12727,68819,261497
+Always Pick Rightmost on sorted data+insertion below 20,592,11052,60928,231766
+Always Pick Rightmost on sorted data+insertion below 24,436,11244,60295,228820
+Always Pick Rightmost on sorted data+insertion below 28,434,10552,60701,227665
+Always Pick Rightmost on sorted data+insertion below 33,437,10311,60270,228303
+Always Pick Rightmost on sorted data+insertion below 38,450,10238,59121,230178
+Always Pick Rightmost on sorted data+insertion below 44,435,10046,59128,225903
+Always Pick Rightmost on sorted data+insertion below 51,434,9638,58429,224975
+Always Pick Rightmost on sorted data+insertion below 59,447,9162,58413,227447
+Always Pick Rightmost on sorted data+insertion below 68,454,9059,63462,239674
+Always Pick Rightmost on sorted data+insertion below 79,437,8090,58703,246078
+Always Pick Rightmost on sorted data+insertion below 91,474,7319,56260,225302
+Always Pick Rightmost on sorted data+insertion below 105,450,8155,58506,229372
+Always Pick Rightmost on sorted data+insertion below 121,444,6886,55087,226137
+Always Pick Rightmost on sorted data+lomuto,1144,11164,61906,229479
+Always Pick Rightmost on sorted data+lomuto+insertion below 8,935,10983,60754,237389
+Always Pick Rightmost on sorted data+lomuto+insertion below 10,867,10922,61378,235252
+Always Pick Rightmost on sorted data+lomuto+insertion below 12,816,10973,61613,234901
+Always Pick Rightmost on sorted data+lomuto+insertion below 14,758,11615,62633,235482
+Always Pick Rightmost on sorted data+lomuto+insertion below 17,661,11084,61187,230925
+Always Pick Rightmost on sorted data+lomuto+insertion below 20,575,10560,60696,230052
+Always Pick Rightmost on sorted data+lomuto+insertion below 24,436,10513,61009,232278
+Always Pick Rightmost on sorted data+lomuto+insertion below 28,434,11062,60234,230295
+Always Pick Rightmost on sorted data+lomuto+insertion below 33,442,10047,60626,261053
+Always Pick Rightmost on sorted data+lomuto+insertion below 38,454,10005,60249,231503
+Always Pick Rightmost on sorted data+lomuto+insertion below 44,437,10489,62346,280258
+Always Pick Rightmost on sorted data+lomuto+insertion below 51,435,9390,63814,236969
+Always Pick Rightmost on sorted data+lomuto+insertion below 59,443,9139,59018,228717
+Always Pick Rightmost on sorted data+lomuto+insertion below 68,496,8892,59871,227300
+Always Pick Rightmost on sorted data+lomuto+insertion below 79,447,8098,58035,228221
+Always Pick Rightmost on sorted data+lomuto+insertion below 91,445,7308,58086,227965
+Always Pick Rightmost on sorted data+lomuto+insertion below 105,449,6725,56125,236610
+Always Pick Rightmost on sorted data+lomuto+insertion below 121,445,6768,55262,225380
+Always Pick Rightmost on sorted data+hoare,799,5802,26806,90033
+Always Pick Rightmost on sorted data+hoare+insertion below 8,672,5712,27163,90129
+Always Pick Rightmost on sorted data+hoare+insertion below 10,626,5645,26611,91034
+Always Pick Rightmost on sorted data+hoare+insertion below 12,603,5672,26856,109409
+Always Pick Rightmost on sorted data+hoare+insertion below 14,581,8354,32828,91278
+Always Pick Rightmost on sorted data+hoare+insertion below 17,509,5589,26426,90529
+Always Pick Rightmost on sorted data+hoare+insertion below 20,488,5477,26390,89741
+Always Pick Rightmost on sorted data+hoare+insertion below 24,433,5444,26673,90119
+Always Pick Rightmost on sorted data+hoare+insertion below 28,454,5370,26125,90191
+Always Pick Rightmost on sorted data+hoare+insertion below 33,454,5311,26101,89459
+Always Pick Rightmost on sorted data+hoare+insertion below 38,455,5405,26288,90370
+Always Pick Rightmost on sorted data+hoare+insertion below 44,443,5478,26343,92049
+Always Pick Rightmost on sorted data+hoare+insertion below 51,434,5897,27423,93938
+Always Pick Rightmost on sorted data+hoare+insertion below 59,506,5613,33102,121946
+Always Pick Rightmost on sorted data+hoare+insertion below 68,443,6267,28413,92664
+Always Pick Rightmost on sorted data+hoare+insertion below 79,433,6372,27522,91628
+Always Pick Rightmost on sorted data+hoare+insertion below 91,463,6478,28493,94046
+Always Pick Rightmost on sorted data+hoare+insertion below 105,520,7781,37738,104521
+Always Pick Rightmost on sorted data+hoare+insertion below 121,495,6770,29426,104974
+Always Pick Rightmost on reversed data,1750,13425,80062,236343
+Always Pick Rightmost on reversed data+insertion below 8,859,9443,48386,177669
+Always Pick Rightmost on reversed data+insertion below 10,822,9820,49507,178715
+Always Pick Rightmost on reversed data+insertion below 12,792,9427,48098,180017
+Always Pick Rightmost on reversed data+insertion below 14,765,9448,48083,178478
+Always Pick Rightmost on reversed data+insertion below 17,715,9776,63137,209160
+Always Pick Rightmost on reversed data+insertion below 20,702,11923,56687,189422
+Always Pick Rightmost on reversed data+insertion below 24,661,9236,48305,211595
+Always Pick Rightmost on reversed data+insertion below 28,664,9468,52510,187185
+Always Pick Rightmost on reversed data+insertion below 33,664,9479,47898,176075
+Always Pick Rightmost on reversed data+insertion below 38,661,9110,47567,175688
+Always Pick Rightmost on reversed data+insertion below 44,658,9178,47883,176455
+Always Pick Rightmost on reversed data+insertion below 51,661,9368,47858,175297
+Always Pick Rightmost on reversed data+insertion below 59,660,9623,47975,177217
+Always Pick Rightmost on reversed data+insertion below 68,707,10045,48658,175629
+Always Pick Rightmost on reversed data+insertion below 79,664,10715,49164,228618
+Always Pick Rightmost on reversed data+insertion below 91,658,12165,52147,179155
+Always Pick Rightmost on reversed data+insertion below 105,661,12487,53084,181353
+Always Pick Rightmost on reversed data+insertion below 121,660,12550,54255,185137
+Always Pick Rightmost on reversed data+lomuto,939,9200,47013,163533
+Always Pick Rightmost on reversed data+lomuto+insertion below 8,816,8819,45059,163874
+Always Pick Rightmost on reversed data+lomuto+insertion below 10,786,8756,45351,165641
+Always Pick Rightmost on reversed data+lomuto+insertion below 12,754,8706,45354,161991
+Always Pick Rightmost on reversed data+lomuto+insertion below 14,733,8652,45532,166326
+Always Pick Rightmost on reversed data+lomuto+insertion below 17,689,9221,45529,162123
+Always Pick Rightmost on reversed data+lomuto+insertion below 20,698,8681,44993,162249
+Always Pick Rightmost on reversed data+lomuto+insertion below 24,660,8585,44985,163737
+Always Pick Rightmost on reversed data+lomuto+insertion below 28,658,8659,45064,162643
+Always Pick Rightmost on reversed data+lomuto+insertion below 33,663,8667,44967,163454
+Always Pick Rightmost on reversed data+lomuto+insertion below 38,660,8646,45078,176132
+Always Pick Rightmost on reversed data+lomuto+insertion below 44,680,8824,45579,165283
+Always Pick Rightmost on reversed data+lomuto+insertion below 51,665,9955,46749,163797
+Always Pick Rightmost on reversed data+lomuto+insertion below 59,661,9472,46485,164571
+Always Pick Rightmost on reversed data+lomuto+insertion below 68,658,9771,46225,163112
+Always Pick Rightmost on reversed data+lomuto+insertion below 79,693,10557,46858,164736
+Always Pick Rightmost on reversed data+lomuto+insertion below 91,750,11751,48127,165960
+Always Pick Rightmost on reversed data+lomuto+insertion below 105,660,12449,49467,166713
+Always Pick Rightmost on reversed data+lomuto+insertion below 121,664,12492,52588,171227
+Always Pick Rightmost on reversed data+hoare,894,8214,39020,130037
+Always Pick Rightmost on reversed data+hoare+insertion below 8,763,8031,37607,134394
+Always Pick Rightmost on reversed data+hoare+insertion below 10,738,8059,37556,147427
+Always Pick Rightmost on reversed data+hoare+insertion below 12,914,8701,51861,160540
+Always Pick Rightmost on reversed data+hoare+insertion below 14,1626,9629,47172,135331
+Always Pick Rightmost on reversed data+hoare+insertion below 17,676,8020,37728,130473
+Always Pick Rightmost on reversed data+hoare+insertion below 20,652,8058,38129,132075
+Always Pick Rightmost on reversed data+hoare+insertion below 24,660,7987,38730,130791
+Always Pick Rightmost on reversed data+hoare+insertion below 28,659,8003,37328,130025
+Always Pick Rightmost on reversed data+hoare+insertion below 33,658,8256,37796,132176
+Always Pick Rightmost on reversed data+hoare+insertion below 38,667,8095,37499,130358
+Always Pick Rightmost on reversed data+hoare+insertion below 44,661,8277,37657,129354
+Always Pick Rightmost on reversed data+hoare+insertion below 51,659,8307,37416,129940
+Always Pick Rightmost on reversed data+hoare+insertion below 59,713,8957,40681,131255
+Always Pick Rightmost on reversed data+hoare+insertion below 68,662,9243,39478,131912
+Always Pick Rightmost on reversed data+hoare+insertion below 79,664,10222,40092,130104
+Always Pick Rightmost on reversed data+hoare+insertion below 91,657,11366,40827,131494
+Always Pick Rightmost on reversed data+hoare+insertion below 105,659,12413,42881,133156
+Always Pick Rightmost on reversed data+hoare+insertion below 121,656,12627,45235,136145
+Always Pick Rightmost on Sequence:0xDEADBEEF data,512,2405,6586,19302
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 8,369,1822,5711,14618
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 10,366,1761,5690,13541
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 12,346,1749,5425,13710
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 14,345,1772,5428,13666
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 17,340,1819,5755,16633
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 20,343,1979,6026,14139
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 24,474,2100,5820,14250
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 28,488,1991,6272,14763
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 33,489,2556,6484,16434
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 38,495,2765,7217,17285
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 44,526,2812,8110,20279
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 51,476,4305,8134,22685
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 59,487,4277,8873,26358
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 68,471,4294,12110,27660
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 79,476,4258,16581,36341
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 91,475,4278,16617,40396
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 105,512,10090,16859,42645
+Always Pick Rightmost on Sequence:0xDEADBEEF data+insertion below 121,489,9975,22306,46114
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto,469,1881,5510,12170
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 8,303,1552,4350,9755
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 10,302,1565,4227,9895
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 12,328,1616,4201,9863
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 14,364,1657,4307,10689
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 17,451,1731,4511,10647
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 20,330,1780,4516,10679
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 24,475,1775,4924,11376
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 28,513,2152,5216,12182
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 33,467,2114,5711,13477
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 38,472,2270,5884,15851
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 44,492,2666,6493,16368
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 51,478,3971,8862,21844
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 59,476,3975,9887,20028
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 68,478,4185,11727,27450
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 79,474,3992,11373,30857
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 91,473,3979,14014,38107
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 105,473,10076,19405,37956
+Always Pick Rightmost on Sequence:0xDEADBEEF data+lomuto+insertion below 121,474,9991,22686,38084
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare,436,1954,5861,15276
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 8,352,1557,4501,10308
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 10,347,1546,4400,10341
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 12,336,1553,4532,10394
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 14,338,1596,4509,10429
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 17,372,1739,4644,12127
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 20,338,1790,4644,11142
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 24,492,1869,5001,12660
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 28,484,1985,5920,12293
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 33,475,1977,6256,13627
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 38,506,2348,6610,19826
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 44,485,2334,7263,16555
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 51,476,4319,8126,18766
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 59,473,4369,8469,21454
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 68,486,4556,11236,30419
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 79,489,4387,15090,27821
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 91,475,4323,15434,31219
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 105,491,10124,20362,43659
+Always Pick Rightmost on Sequence:0xDEADBEEF data+hoare+insertion below 121,489,10127,30249,44060
+Always Pick Rightmost on Sequence:0xCAFEBABE data,504,2560,6712,19703
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 8,421,2086,5462,14071
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 10,367,2057,5179,13562
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 12,342,1997,5246,13815
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 14,344,1971,5402,14994
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 17,799,3622,5518,15053
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 20,344,2047,5465,21664
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 24,493,2078,5798,18431
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 28,492,2265,6038,18264
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 33,490,2558,6861,17177
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 38,493,2635,7284,19329
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 44,491,2894,7340,20771
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 51,520,3709,8225,22697
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 59,492,3800,11129,23599
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 68,491,3864,11228,27908
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 79,493,3800,11047,32028
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 91,493,3924,14629,31108
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 105,490,9918,21624,36704
+Always Pick Rightmost on Sequence:0xCAFEBABE data+insertion below 121,489,9704,24200,37317
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto,489,1891,5057,12532
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 8,341,1488,4026,10225
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 10,337,1467,4089,10084
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 12,322,1491,4112,11233
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 14,321,1517,4238,10291
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 17,324,1600,4288,10623
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 20,339,1708,4802,11011
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 24,492,1875,4704,11737
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 28,490,1836,4898,12327
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 33,506,2398,5888,13577
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 38,491,2427,6077,14000
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 44,490,2431,6993,14891
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 51,489,2451,8092,17237
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 59,492,3788,9576,20413
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 68,493,4628,10425,23627
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 79,519,4612,16988,27378
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 91,491,4575,17104,35902
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 105,494,12485,21206,35469
+Always Pick Rightmost on Sequence:0xCAFEBABE data+lomuto+insertion below 121,490,9791,25893,44729
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare,415,2087,5661,15037
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 8,300,1703,4185,10349
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 10,303,1658,4140,10184
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 12,335,1643,4393,12061
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 14,336,1689,4520,10536
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 17,363,1753,4533,10793
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 20,367,1947,4403,11284
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 24,499,1940,4680,12017
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 28,487,1883,5591,13658
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 33,806,2661,5812,14530
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 38,492,2281,5954,14791
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 44,537,2991,7812,16381
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 51,492,3059,7880,18699
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 59,491,3642,9033,20998
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 68,492,4424,12583,24251
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 79,491,4555,15838,24410
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 91,492,4472,16247,29450
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 105,494,9819,15755,35974
+Always Pick Rightmost on Sequence:0xCAFEBABE data+hoare+insertion below 121,493,9756,23566,48922
+Always Pick Rightmost on Sequence:0xBAADF00D data,563,2437,7710,21106
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 8,432,2001,6444,22715
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 10,361,2051,6371,13833
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 12,372,1997,6844,13822
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 14,349,2079,6321,13687
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 17,348,2041,6454,13496
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 20,404,2134,6518,13541
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 24,498,2179,7010,14222
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 28,506,2523,7421,14658
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 33,500,2781,7466,16748
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 38,497,2724,7771,18099
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 44,499,2781,8296,20029
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 51,498,2822,9221,21425
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 59,504,2753,10353,23290
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 68,500,4305,10378,23421
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 79,499,5961,10184,34655
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 91,499,5903,14128,36881
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 105,504,9737,14349,36518
+Always Pick Rightmost on Sequence:0xBAADF00D data+insertion below 121,526,9717,19139,43950
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto,395,2138,5761,11629
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 8,333,1684,4714,9285
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 10,324,1642,4938,10092
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 12,340,1670,5198,9798
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 14,319,1690,4899,9607
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 17,324,1750,5006,9603
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 20,320,1751,4979,10131
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 24,499,1842,5616,10641
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 28,498,2314,5892,11812
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 33,542,2287,6211,12076
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 38,499,2551,6199,13562
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 44,497,2555,8331,15065
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 51,502,2564,9357,17553
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 59,495,2687,9601,23615
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 68,501,4172,12448,22122
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 79,502,5992,13431,29070
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 91,499,5993,18523,42775
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 105,501,9673,18182,44224
+Always Pick Rightmost on Sequence:0xBAADF00D data+lomuto+insertion below 121,499,9641,18477,49273
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare,444,2129,5952,14668
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 8,316,1635,4624,9579
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 10,315,1660,4571,9629
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 12,412,2591,4632,10466
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 14,343,1704,4997,9813
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 17,342,1661,4877,10124
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 20,344,1869,4846,10395
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 24,498,1938,4836,11306
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 28,498,2054,5977,11681
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 33,496,2261,6285,13097
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 38,497,2252,9027,13194
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 44,498,2974,7128,17193
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 51,501,2964,7854,17308
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 59,499,3011,9165,20165
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 68,497,3033,10958,22526
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 79,500,5900,15751,31419
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 91,531,5812,13319,35725
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 105,497,9789,13160,35827
+Always Pick Rightmost on Sequence:0xBAADF00D data+hoare+insertion below 121,503,9811,13168,50863
+Median Of Three,2017,6943,19832,43952
+Median Of Three+insertion below 8,1173,6257,18533,41218
+Median Of Three+insertion below 10,1165,6189,18295,40809
+Median Of Three+insertion below 12,1143,6219,18505,41123
+Median Of Three+insertion below 14,1155,6376,18553,41427
+Median Of Three+insertion below 17,1181,6442,19160,42113
+Median Of Three+insertion below 20,1196,6565,19250,43641
+Median Of Three+insertion below 24,1344,7090,20490,44575
+Median Of Three+insertion below 28,1275,7205,20823,46311
+Median Of Three+insertion below 33,1268,7468,21309,46794
+Median Of Three+insertion below 38,1271,7561,21799,49359
+Median Of Three+insertion below 44,1249,7798,22277,48471
+Median Of Three+insertion below 51,1259,8117,23467,50452
+Median Of Three+insertion below 59,1258,8589,27902,60121
+Median Of Three+insertion below 68,1298,9056,25457,54981
+Median Of Three+insertion below 79,1256,9608,27155,57970
+Median Of Three+insertion below 91,1254,10126,29779,62088
+Median Of Three+insertion below 105,1256,13367,30739,65421
+Median Of Three+insertion below 121,1271,13243,33611,70580
+Median Of Three+lomuto,1263,6490,18832,41968
+Median Of Three+lomuto+insertion below 8,1151,6019,17485,38691
+Median Of Three+lomuto+insertion below 10,1127,5994,17464,39143
+Median Of Three+lomuto+insertion below 12,1126,6031,17539,38948
+Median Of Three+lomuto+insertion below 14,1142,6108,17828,39516
+Median Of Three+lomuto+insertion below 17,1163,6283,18048,39919
+Median Of Three+lomuto+insertion below 20,1174,6397,18461,40892
+Median Of Three+lomuto+insertion below 24,1256,6635,18984,41763
+Median Of Three+lomuto+insertion below 28,1257,6781,19604,43606
+Median Of Three+lomuto+insertion below 33,1263,7022,20211,44110
+Median Of Three+lomuto+insertion below 38,1259,7330,21070,46320
+Median Of Three+lomuto+insertion below 44,1296,7718,21929,47835
+Median Of Three+lomuto+insertion below 51,1276,8264,22934,49499
+Median Of Three+lomuto+insertion below 59,1265,8647,23683,53976
+Median Of Three+lomuto+insertion below 68,1268,8988,28498,54490
+Median Of Three+lomuto+insertion below 79,1262,9510,26783,59750
+Median Of Three+lomuto+insertion below 91,1258,10018,28192,60927
+Median Of Three+lomuto+insertion below 105,1290,13237,31884,64773
+Median Of Three+lomuto+insertion below 121,1261,13267,32631,69191
+Median Of Three+hoare,1333,6829,19631,43524
+Median Of Three+hoare+insertion below 8,1177,6123,17716,39298
+Median Of Three+hoare+insertion below 10,1181,6104,17837,40419
+Median Of Three+hoare+insertion below 12,1240,6618,18879,41368
+Median Of Three+hoare+insertion below 14,1250,6566,19165,41577
+Median Of Three+hoare+insertion below 17,1251,6596,19112,43993
+Median Of Three+hoare+insertion below 20,1210,6630,18915,40965
+Median Of Three+hoare+insertion below 24,1255,6645,19067,42059
+Median Of Three+hoare+insertion below 28,1357,6816,19678,42870
+Median Of Three+hoare+insertion below 33,1261,7088,20152,44357
+Median Of Three+hoare+insertion below 38,1254,7316,20765,45302
+Median Of Three+hoare+insertion below 44,1286,7582,21570,47541
+Median Of Three+hoare+insertion below 51,1253,8183,22549,48794
+Median Of Three+hoare+insertion below 59,1282,8490,24275,51050
+Median Of Three+hoare+insertion below 68,1286,8938,24901,53724
+Median Of Three+hoare+insertion below 79,1258,9547,26301,56482
+Median Of Three+hoare+insertion below 91,1255,9943,28260,60172
+Median Of Three+hoare+insertion below 105,1262,13194,30129,64230
+Median Of Three+hoare+insertion below 121,1267,13259,32610,68926
+Median Of Three on sorted data,436,1852,5734,12886
+Median Of Three on sorted data+insertion below 8,326,1537,4051,8998
+Median Of Three on sorted data+insertion below 10,327,1530,4040,9020
+Median Of Three on sorted data+insertion below 12,346,1463,4017,9472
+Median Of Three on sorted data+insertion below 14,308,1667,4556,9210
+Median Of Three on sorted data+insertion below 17,311,1467,4524,9542
+Median Of Three on sorted data+insertion below 20,312,1474,4514,9434
+Median Of Three on sorted data+insertion below 24,450,2069,4512,9239
+Median Of Three on sorted data+insertion below 28,457,2072,4568,9749
+Median Of Three on sorted data+insertion below 33,445,2075,5793,13028
+Median Of Three on sorted data+insertion below 38,446,2038,5828,13105
+Median Of Three on sorted data+insertion below 44,459,2044,5748,13002
+Median Of Three on sorted data+insertion below 51,448,3627,6001,13046
+Median Of Three on sorted data+insertion below 59,445,3648,5829,12991
+Median Of Three on sorted data+insertion below 68,445,3689,11337,23677
+Median Of Three on sorted data+insertion below 79,449,3649,11351,23644
+Median Of Three on sorted data+insertion below 91,451,3695,11435,23974
+Median Of Three on sorted data+insertion below 105,433,6744,11667,25022
+Median Of Three on sorted data+insertion below 121,434,6773,11416,23803
+Median Of Three on sorted data+lomuto,439,1620,5163,11422
+Median Of Three on sorted data+lomuto+insertion below 8,306,1388,3634,8262
+Median Of Three on sorted data+lomuto+insertion below 10,303,1372,3630,8214
+Median Of Three on sorted data+lomuto+insertion below 12,299,1375,3661,8342
+Median Of Three on sorted data+lomuto+insertion below 14,460,1376,6607,11684
+Median Of Three on sorted data+lomuto+insertion below 17,567,2594,5716,13835
+Median Of Three on sorted data+lomuto+insertion below 20,565,2628,7000,8925
+Median Of Three on sorted data+lomuto+insertion below 24,432,1910,4237,8836
+Median Of Three on sorted data+lomuto+insertion below 28,432,1904,4232,10003
+Median Of Three on sorted data+lomuto+insertion below 33,434,1907,5774,12591
+Median Of Three on sorted data+lomuto+insertion below 38,446,2183,5548,12788
+Median Of Three on sorted data+lomuto+insertion below 44,443,1988,5604,12814
+Median Of Three on sorted data+lomuto+insertion below 51,455,3568,7938,16655
+Median Of Three on sorted data+lomuto+insertion below 59,697,5342,6196,17306
+Median Of Three on sorted data+lomuto+insertion below 68,702,4439,11155,26762
+Median Of Three on sorted data+lomuto+insertion below 79,438,3615,11267,23572
+Median Of Three on sorted data+lomuto+insertion below 91,434,3623,11233,23420
+Median Of Three on sorted data+lomuto+insertion below 105,450,6722,11231,24400
+Median Of Three on sorted data+lomuto+insertion below 121,457,7044,11267,23590
+Median Of Three on sorted data+hoare,400,1633,5188,11263
+Median Of Three on sorted data+hoare+insertion below 8,297,1355,3537,7620
+Median Of Three on sorted data+hoare+insertion below 10,311,1348,3563,7601
+Median Of Three on sorted data+hoare+insertion below 12,293,1339,3519,7631
+Median Of Three on sorted data+hoare+insertion below 14,291,1342,4124,8081
+Median Of Three on sorted data+hoare+insertion below 17,292,1342,4102,8101
+Median Of Three on sorted data+hoare+insertion below 20,291,1339,4086,8063
+Median Of Three on sorted data+hoare+insertion below 24,433,1874,4088,8365
+Median Of Three on sorted data+hoare+insertion below 28,431,1871,4386,8069
+Median Of Three on sorted data+hoare+insertion below 33,478,1875,5516,12036
+Median Of Three on sorted data+hoare+insertion below 38,448,1948,5322,12040
+Median Of Three on sorted data+hoare+insertion below 44,453,1941,5357,12033
+Median Of Three on sorted data+hoare+insertion below 51,450,3631,5405,14186
+Median Of Three on sorted data+hoare+insertion below 59,448,3524,5419,12168
+Median Of Three on sorted data+hoare+insertion below 68,447,3525,11277,30571
+Median Of Three on sorted data+hoare+insertion below 79,455,4018,13276,30979
+Median Of Three on sorted data+hoare+insertion below 91,437,3588,11286,23461
+Median Of Three on sorted data+hoare+insertion below 105,437,6731,11287,25668
+Median Of Three on sorted data+hoare+insertion below 121,604,6727,12788,27867
+Median Of Three on reversed data,484,2699,6087,14243
+Median Of Three on reversed data+insertion below 8,361,1729,4415,9795
+Median Of Three on reversed data+insertion below 10,360,1653,4365,9816
+Median Of Three on reversed data+insertion below 12,384,1607,4325,9801
+Median Of Three on reversed data+insertion below 14,338,1624,4854,9962
+Median Of Three on reversed data+insertion below 17,336,1604,4861,9977
+Median Of Three on reversed data+insertion below 20,340,1603,4855,9953
+Median Of Three on reversed data+insertion below 24,660,2115,5388,11436
+Median Of Three on reversed data+insertion below 28,660,2113,4935,9918
+Median Of Three on reversed data+insertion below 33,659,2113,6529,14079
+Median Of Three on reversed data+insertion below 38,659,2170,6151,13823
+Median Of Three on reversed data+insertion below 44,679,2239,6094,13880
+Median Of Three on reversed data+insertion below 51,661,3793,6495,13778
+Median Of Three on reversed data+insertion below 59,663,3783,6084,13787
+Median Of Three on reversed data+insertion below 68,656,3835,11637,24548
+Median Of Three on reversed data+insertion below 79,660,3810,11707,24694
+Median Of Three on reversed data+insertion below 91,810,3888,11736,24411
+Median Of Three on reversed data+insertion below 105,660,12458,11706,24748
+Median Of Three on reversed data+insertion below 121,658,12457,11704,24452
+Median Of Three on reversed data+lomuto,467,2136,5932,13720
+Median Of Three on reversed data+lomuto+insertion below 8,335,1667,5016,14076
+Median Of Three on reversed data+lomuto+insertion below 10,338,1672,5114,19226
+Median Of Three on reversed data+lomuto+insertion below 12,359,1671,5059,11714
+Median Of Three on reversed data+lomuto+insertion below 14,350,1768,5136,12794
+Median Of Three on reversed data+lomuto+insertion below 17,404,3185,5478,16841
+Median Of Three on reversed data+lomuto+insertion below 20,667,3735,9696,13782
+Median Of Three on reversed data+lomuto+insertion below 24,660,2390,7377,19696
+Median Of Three on reversed data+lomuto+insertion below 28,676,2660,10137,22794
+Median Of Three on reversed data+lomuto+insertion below 33,1037,4629,7872,18140
+Median Of Three on reversed data+lomuto+insertion below 38,969,3960,12618,21314
+Median Of Three on reversed data+lomuto+insertion below 44,660,3631,7843,16948
+Median Of Three on reversed data+lomuto+insertion below 51,661,5785,9430,20578
+Median Of Three on reversed data+lomuto+insertion below 59,658,5861,17395,35326
+Median Of Three on reversed data+lomuto+insertion below 68,665,5931,18191,36352
+Median Of Three on reversed data+lomuto+insertion below 79,661,5783,17887,35503
+Median Of Three on reversed data+lomuto+insertion below 91,660,5807,18095,36663
+Median Of Three on reversed data+lomuto+insertion below 105,656,12539,18226,36505
+Median Of Three on reversed data+lomuto+insertion below 121,684,12489,40259,80205
+Median Of Three on reversed data+hoare,878,3616,10023,23144
+Median Of Three on reversed data+hoare+insertion below 8,500,2264,4933,9667
+Median Of Three on reversed data+hoare+insertion below 10,325,2098,4063,8061
+Median Of Three on reversed data+hoare+insertion below 12,337,1583,3618,8064
+Median Of Three on reversed data+hoare+insertion below 14,318,1536,4287,8586
+Median Of Three on reversed data+hoare+insertion below 17,395,1400,4313,8628
+Median Of Three on reversed data+hoare+insertion below 20,336,1425,4226,8970
+Median Of Three on reversed data+hoare+insertion below 24,661,2037,4515,8735
+Median Of Three on reversed data+hoare+insertion below 28,697,1967,4261,11118
+Median Of Three on reversed data+hoare+insertion below 33,711,2175,5773,13790
+Median Of Three on reversed data+hoare+insertion below 38,662,2068,9631,16113
+Median Of Three on reversed data+hoare+insertion below 44,657,2281,8423,16747
+Median Of Three on reversed data+hoare+insertion below 51,818,3461,6251,13478
+Median Of Three on reversed data+hoare+insertion below 59,662,3691,6769,17306
+Median Of Three on reversed data+hoare+insertion below 68,935,6240,15157,25249
+Median Of Three on reversed data+hoare+insertion below 79,662,5230,12414,28093
+Median Of Three on reversed data+hoare+insertion below 91,664,3945,12294,25907
+Median Of Three on reversed data+hoare+insertion below 105,973,12562,11363,24068
+Median Of Three on reversed data+hoare+insertion below 121,662,12603,11560,23811
+Median Of Three on Sequence:0xDEADBEEF data,501,2269,7563,21980
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 8,386,2036,5759,14238
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 10,383,1828,5630,15180
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 12,500,2467,7320,16931
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 14,367,2434,6834,15446
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 17,353,1852,5667,13248
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 20,423,2001,5894,13726
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 24,494,2123,6249,14113
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 28,499,2201,6508,14198
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 33,495,2613,6722,16661
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 38,482,2489,7851,20393
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 44,504,2480,8437,20479
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 51,505,4651,8402,24032
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 59,477,4429,9842,26951
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 68,493,4529,12800,30631
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 79,549,6784,17107,32744
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 91,777,6691,14627,31458
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 105,488,11220,21238,53085
+Median Of Three on Sequence:0xDEADBEEF data+insertion below 121,577,10054,20764,52334
+Median Of Three on Sequence:0xDEADBEEF data+lomuto,485,1951,5634,11753
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 8,328,2313,4180,9937
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 10,332,1535,4143,9611
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 12,338,1712,4285,9560
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 14,336,1614,4289,9342
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 17,396,2285,4381,10063
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 20,333,1679,5061,10326
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 24,513,1716,4931,11296
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 28,488,2023,8899,17259
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 33,485,2148,5556,16285
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 38,472,2326,5620,14979
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 44,541,2636,7290,17225
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 51,520,4253,8084,18927
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 59,469,4260,10060,20243
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 68,476,4880,13642,25103
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 79,479,4327,13448,31322
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 91,474,4226,16132,39270
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 105,470,10055,16117,39104
+Median Of Three on Sequence:0xDEADBEEF data+lomuto+insertion below 121,468,10112,22656,46620
+Median Of Three on Sequence:0xDEADBEEF data+hoare,451,2093,5609,15048
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 8,348,1555,5137,14781
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 10,332,1529,4356,10821
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 12,342,1514,4586,10478
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 14,342,1592,4636,10226
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 17,340,2317,4546,12511
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 20,352,1728,5598,12451
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 24,484,1982,9119,15738
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 28,793,3162,6452,16602
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 33,475,2198,5946,14002
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 38,471,2770,6519,15764
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 44,491,2717,7362,17072
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 51,494,4333,8393,19898
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 59,475,4363,12960,20618
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 68,479,4578,11553,25647
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 79,472,4279,14529,29544
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 91,477,4279,14518,30027
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 105,473,10111,20201,35248
+Median Of Three on Sequence:0xDEADBEEF data+hoare+insertion below 121,471,9948,21493,48054
+Median Of Three on Sequence:0xCAFEBABE data,496,2457,6929,21002
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 8,383,1792,5194,13423
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 10,386,1780,5108,13015
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 12,359,1810,5158,13476
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 14,358,1812,5123,13287
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 17,356,1954,5487,18802
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 20,360,1900,5954,14295
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 24,494,1982,5929,13924
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 28,493,1977,6492,15864
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 33,489,2799,6852,16793
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 38,492,2765,7067,23997
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 44,496,2819,8535,33254
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 51,816,4034,7698,22840
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 59,576,3612,9304,24270
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 68,488,4559,9109,25758
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 79,489,4479,13516,29123
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 91,555,4504,15567,34458
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 105,492,9874,21534,43603
+Median Of Three on Sequence:0xCAFEBABE data+insertion below 121,491,9840,26332,57174
+Median Of Three on Sequence:0xCAFEBABE data+lomuto,482,1984,4945,11226
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 8,346,1509,3889,8926
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 10,354,3764,6059,12182
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 12,383,2113,5484,11679
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 14,386,2040,5234,11671
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 17,377,2016,5269,11375
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 20,377,2020,5205,11590
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 24,491,2092,5403,12211
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 28,492,2068,5492,12318
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 33,535,2345,7641,26553
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 38,845,2722,6507,20381
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 44,1217,3460,8958,17681
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 51,503,3283,7833,19370
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 59,539,3262,11853,29682
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 68,1162,7568,10854,25119
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 79,899,9148,17613,31990
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 91,491,4800,17315,40226
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 105,490,9788,17141,37904
+Median Of Three on Sequence:0xCAFEBABE data+lomuto+insertion below 121,527,9719,23521,49591
+Median Of Three on Sequence:0xCAFEBABE data+hoare,895,3598,10350,28399
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 8,479,2039,6401,14174
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 10,322,1690,4262,10629
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 12,342,1526,4323,11096
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 14,340,1569,4524,11200
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 17,343,1582,4583,11257
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 20,346,1883,4884,12179
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 24,491,1822,4867,12019
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 28,487,1998,5009,12851
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 33,493,1957,6152,14303
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 38,493,2405,6529,15214
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 44,491,2933,7021,15616
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 51,489,2930,7880,29100
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 59,1316,6208,14475,23314
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 68,908,4727,10441,37031
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 79,806,6679,15380,37610
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 91,496,4528,17552,41990
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 105,493,9755,17193,38842
+Median Of Three on Sequence:0xCAFEBABE data+hoare+insertion below 121,491,9761,24546,54187
+Median Of Three on Sequence:0xBAADF00D data,484,2298,6539,19618
+Median Of Three on Sequence:0xBAADF00D data+insertion below 8,385,1728,5273,12755
+Median Of Three on Sequence:0xBAADF00D data+insertion below 10,363,1726,5120,12388
+Median Of Three on Sequence:0xBAADF00D data+insertion below 12,480,1722,5151,12506
+Median Of Three on Sequence:0xBAADF00D data+insertion below 14,375,1719,9236,13295
+Median Of Three on Sequence:0xBAADF00D data+insertion below 17,377,1869,5221,12629
+Median Of Three on Sequence:0xBAADF00D data+insertion below 20,375,1878,5410,13339
+Median Of Three on Sequence:0xBAADF00D data+insertion below 24,503,1866,5784,13169
+Median Of Three on Sequence:0xBAADF00D data+insertion below 28,504,3597,7482,14721
+Median Of Three on Sequence:0xBAADF00D data+insertion below 33,514,2522,6685,15894
+Median Of Three on Sequence:0xBAADF00D data+insertion below 38,502,2855,6513,16227
+Median Of Three on Sequence:0xBAADF00D data+insertion below 44,500,2843,8022,18983
+Median Of Three on Sequence:0xBAADF00D data+insertion below 51,518,2867,9191,21670
+Median Of Three on Sequence:0xBAADF00D data+insertion below 59,500,2838,10501,25695
+Median Of Three on Sequence:0xBAADF00D data+insertion below 68,499,2874,10453,30645
+Median Of Three on Sequence:0xBAADF00D data+insertion below 79,496,4954,13370,36956
+Median Of Three on Sequence:0xBAADF00D data+insertion below 91,690,5326,16733,41776
+Median Of Three on Sequence:0xBAADF00D data+insertion below 105,551,9565,21345,48662
+Median Of Three on Sequence:0xBAADF00D data+insertion below 121,549,9700,26678,48013
+Median Of Three on Sequence:0xBAADF00D data+lomuto,416,1964,5270,11658
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 8,310,1512,4034,9230
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 10,316,1553,4243,9528
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 12,318,1469,4078,9877
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 14,337,1513,4174,9278
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 17,341,1532,4515,9891
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 20,339,1597,7651,10227
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 24,546,1760,4742,12996
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 28,503,1992,5130,11554
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 33,501,2638,5006,11925
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 38,497,2713,6055,14032
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 44,516,2725,7076,15122
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 51,497,2776,7954,16138
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 59,501,2717,10667,23596
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 68,517,2703,12546,25514
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 79,501,4875,12529,26540
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 91,502,5045,12843,39748
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 105,498,9986,20743,46465
+Median Of Three on Sequence:0xBAADF00D data+lomuto+insertion below 121,504,10501,25477,52071
+Median Of Three on Sequence:0xBAADF00D data+hoare,715,2020,10196,20636
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 8,351,1561,6789,16418
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 10,674,1781,6424,12172
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 12,355,1612,4739,11438
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 14,365,1580,4455,10797
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 17,358,1600,4610,11123
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 20,361,1546,6374,13596
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 24,499,2013,5807,12346
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 28,533,2187,5570,12346
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 33,499,2337,5888,14573
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 38,502,2731,5701,14860
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 44,507,2876,7875,17151
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 51,508,2649,9670,20084
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 59,510,2647,10203,21308
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 68,566,2694,9935,22501
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 79,499,4974,9687,27678
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 91,502,4924,9882,32490
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 105,509,9793,26564,38350
+Median Of Three on Sequence:0xBAADF00D data+hoare+insertion below 121,498,9663,25646,47142
