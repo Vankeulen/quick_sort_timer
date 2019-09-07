@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a2797a7-7468-496b-9a99-7f6c06688fba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/quickSort/Quick$TestResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/quickSort/Quick$TestResult.class" afterDir="false" />
@@ -25,6 +24,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,6 +68,10 @@
       <workItem from="1567020882962" duration="4468000" />
       <workItem from="1567481512806" duration="214000" />
       <workItem from="1567538495717" duration="8718000" />
+      <workItem from="1567790154461" duration="3210000" />
+      <workItem from="1567794498564" duration="6526000" />
+      <workItem from="1567893723901" duration="2353000" />
+      <workItem from="1567896242076" duration="1098000" />
     </task>
     <servers />
   </component>
