@@ -4,6 +4,8 @@
     <list default="true" id="1a2797a7-7468-496b-9a99-7f6c06688fba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/quickSort/Quick$TestResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/quickSort/Quick$TestResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/quickSort/Quick$TestSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/quickSort/Quick$TestSetup.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/quickSort/Quick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/quickSort/Quick.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quick.java" afterDir="false" />
     </list>
@@ -22,7 +24,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -66,20 +68,11 @@
       <workItem from="1567020882962" duration="4468000" />
       <workItem from="1567481512806" duration="214000" />
       <workItem from="1567538495717" duration="8718000" />
-      <workItem from="1567637000381" duration="832000" />
-      <workItem from="1567706493028" duration="6610000" />
-      <workItem from="1567735623662" duration="603000" />
-      <workItem from="1567895966645" duration="803000" />
-      <workItem from="1568053275087" duration="6505000" />
+      <workItem from="1567790154461" duration="3210000" />
+      <workItem from="1567794498564" duration="6526000" />
+      <workItem from="1567893723901" duration="2353000" />
+      <workItem from="1567896242076" duration="1098000" />
     </task>
-    <task id="LOCAL-00001" summary="Did question 3 and added additional algorithms.">
-      <created>1567637117235</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1567637117235</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,9 +90,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Did question 3 and added additional algorithms." />
-    <option name="LAST_COMMIT_MESSAGE" value="Did question 3 and added additional algorithms." />
   </component>
 </project>
