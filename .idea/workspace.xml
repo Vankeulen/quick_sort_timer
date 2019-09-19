@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a2797a7-7468-496b-9a99-7f6c06688fba" name="Default Changelist" comment="" />
+    <list default="true" id="1a2797a7-7468-496b-9a99-7f6c06688fba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/quickSort/Quick$TestResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/quickSort/Quick$TestResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/quickSort/Quick$TestSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/quickSort/Quick$TestSetup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/quickSort/Quick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/quickSort/Quick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quick.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -35,6 +43,7 @@
     <configuration name="Quick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Quick" />
       <module name="quickSort" />
+      <option name="VM_PARAMETERS" value="-Xss16m" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -65,7 +74,19 @@
       <workItem from="1567794498564" duration="6526000" />
       <workItem from="1567893723901" duration="2353000" />
       <workItem from="1567896242076" duration="1098000" />
+      <workItem from="1568139356287" duration="2486000" />
+      <workItem from="1568163991287" duration="2596000" />
+      <workItem from="1568358908351" duration="11000" />
+      <workItem from="1568931937824" duration="3462000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1568084152899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568084152899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
