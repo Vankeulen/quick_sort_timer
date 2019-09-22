@@ -1,89 +1,89 @@
 Name, Size of 1000000
-lomuto + Always Pick Leftmost on Random data,250620660
-lomuto + Always Pick Leftmost on Random data+insertion below 3 once at end,246329990
-lomuto + Always Pick Leftmost on Random data+insertion below 5 once at end,244444940
-lomuto + Always Pick Leftmost on Random data+insertion below 8 once at end,244739400
-lomuto + Always Pick Leftmost on Random data+insertion below 12 once at end,241563140
-lomuto + Always Pick Leftmost on Random data+insertion below 18 once at end,243632170
-lomuto + Always Pick Leftmost on Random data+insertion below 27 once at end,239902400
-lomuto + Always Pick Leftmost on Random data+insertion below 40 once at end,241118090
-lomuto + Always Pick Leftmost on Random data+insertion below 59 once at end,245621110
-lomuto + Always Pick Leftmost on Random data+insertion below 86 once at end,238966960
-lomuto + Always Pick Leftmost on Random data+insertion below 125 once at end,240142230
-lomuto + Always Pick Middle on Random data,245590310
-lomuto + Always Pick Middle on Random data+insertion below 3 once at end,243421210
-lomuto + Always Pick Middle on Random data+insertion below 5 once at end,243845450
-lomuto + Always Pick Middle on Random data+insertion below 8 once at end,243812230
-lomuto + Always Pick Middle on Random data+insertion below 12 once at end,242686460
-lomuto + Always Pick Middle on Random data+insertion below 18 once at end,244489280
-lomuto + Always Pick Middle on Random data+insertion below 27 once at end,241364180
-lomuto + Always Pick Middle on Random data+insertion below 40 once at end,246140850
-lomuto + Always Pick Middle on Random data+insertion below 59 once at end,239597320
-lomuto + Always Pick Middle on Random data+insertion below 86 once at end,242824320
-lomuto + Always Pick Middle on Random data+insertion below 125 once at end,248838840
-lomuto + Always Pick Rightmost on Random data,229625910
-lomuto + Always Pick Rightmost on Random data+insertion below 3 once at end,238601940
-lomuto + Always Pick Rightmost on Random data+insertion below 5 once at end,237099430
-lomuto + Always Pick Rightmost on Random data+insertion below 8 once at end,233948850
-lomuto + Always Pick Rightmost on Random data+insertion below 12 once at end,240928260
-lomuto + Always Pick Rightmost on Random data+insertion below 18 once at end,227911300
-lomuto + Always Pick Rightmost on Random data+insertion below 27 once at end,226625470
-lomuto + Always Pick Rightmost on Random data+insertion below 40 once at end,230766850
-lomuto + Always Pick Rightmost on Random data+insertion below 59 once at end,233506260
-lomuto + Always Pick Rightmost on Random data+insertion below 86 once at end,236760020
-lomuto + Always Pick Rightmost on Random data+insertion below 125 once at end,234524230
-lomuto + Median Of Three on Random data,240014430
-lomuto + Median Of Three on Random data+insertion below 3 once at end,234853260
-lomuto + Median Of Three on Random data+insertion below 5 once at end,226586600
-lomuto + Median Of Three on Random data+insertion below 8 once at end,225994420
-lomuto + Median Of Three on Random data+insertion below 12 once at end,233982800
-lomuto + Median Of Three on Random data+insertion below 18 once at end,239104360
-lomuto + Median Of Three on Random data+insertion below 27 once at end,225156280
-lomuto + Median Of Three on Random data+insertion below 40 once at end,232339060
-lomuto + Median Of Three on Random data+insertion below 59 once at end,228824050
-lomuto + Median Of Three on Random data+insertion below 86 once at end,226156990
-lomuto + Median Of Three on Random data+insertion below 125 once at end,226418730
-hoare + Always Pick Leftmost on Random data,58102060
-hoare + Always Pick Leftmost on Random data+insertion below 3 once at end,53186040
-hoare + Always Pick Leftmost on Random data+insertion below 5 once at end,52188220
-hoare + Always Pick Leftmost on Random data+insertion below 8 once at end,52007470
-hoare + Always Pick Leftmost on Random data+insertion below 12 once at end,52864460
-hoare + Always Pick Leftmost on Random data+insertion below 18 once at end,51587000
-hoare + Always Pick Leftmost on Random data+insertion below 27 once at end,50958840
-hoare + Always Pick Leftmost on Random data+insertion below 40 once at end,51785600
-hoare + Always Pick Leftmost on Random data+insertion below 59 once at end,51296710
-hoare + Always Pick Leftmost on Random data+insertion below 86 once at end,49540350
-hoare + Always Pick Leftmost on Random data+insertion below 125 once at end,49542420
-hoare + Always Pick Middle on Random data,59669010
-hoare + Always Pick Middle on Random data+insertion below 3 once at end,57373110
-hoare + Always Pick Middle on Random data+insertion below 5 once at end,56923530
-hoare + Always Pick Middle on Random data+insertion below 8 once at end,55159560
-hoare + Always Pick Middle on Random data+insertion below 12 once at end,53036760
-hoare + Always Pick Middle on Random data+insertion below 18 once at end,52680400
-hoare + Always Pick Middle on Random data+insertion below 27 once at end,49631470
-hoare + Always Pick Middle on Random data+insertion below 40 once at end,49029160
-hoare + Always Pick Middle on Random data+insertion below 59 once at end,48911400
-hoare + Always Pick Middle on Random data+insertion below 86 once at end,51734010
-hoare + Always Pick Middle on Random data+insertion below 125 once at end,50696540
-hoare + Always Pick Rightmost on Random data,57830230
-hoare + Always Pick Rightmost on Random data+insertion below 3 once at end,57558950
-hoare + Always Pick Rightmost on Random data+insertion below 5 once at end,55653270
-hoare + Always Pick Rightmost on Random data+insertion below 8 once at end,53674190
-hoare + Always Pick Rightmost on Random data+insertion below 12 once at end,50966660
-hoare + Always Pick Rightmost on Random data+insertion below 18 once at end,50649360
-hoare + Always Pick Rightmost on Random data+insertion below 27 once at end,50360580
-hoare + Always Pick Rightmost on Random data+insertion below 40 once at end,50129350
-hoare + Always Pick Rightmost on Random data+insertion below 59 once at end,49444420
-hoare + Always Pick Rightmost on Random data+insertion below 86 once at end,48680640
-hoare + Always Pick Rightmost on Random data+insertion below 125 once at end,48433110
-hoare + Median Of Three on Random data,58663690
-hoare + Median Of Three on Random data+insertion below 3 once at end,58488890
-hoare + Median Of Three on Random data+insertion below 5 once at end,57337200
-hoare + Median Of Three on Random data+insertion below 8 once at end,54623580
-hoare + Median Of Three on Random data+insertion below 12 once at end,54624050
-hoare + Median Of Three on Random data+insertion below 18 once at end,53719970
-hoare + Median Of Three on Random data+insertion below 27 once at end,52742110
-hoare + Median Of Three on Random data+insertion below 40 once at end,51733970
-hoare + Median Of Three on Random data+insertion below 59 once at end,51882440
-hoare + Median Of Three on Random data+insertion below 86 once at end,53037850
-hoare + Median Of Three on Random data+insertion below 125 once at end,50382930
+lomuto + Always Pick Leftmost on Random data,301313110
+lomuto + Always Pick Leftmost on Random data+insertion below 3 once at end,256757830
+lomuto + Always Pick Leftmost on Random data+insertion below 5 once at end,255394430
+lomuto + Always Pick Leftmost on Random data+insertion below 8 once at end,267718060
+lomuto + Always Pick Leftmost on Random data+insertion below 12 once at end,289691500
+lomuto + Always Pick Leftmost on Random data+insertion below 18 once at end,269895410
+lomuto + Always Pick Leftmost on Random data+insertion below 27 once at end,288359980
+lomuto + Always Pick Leftmost on Random data+insertion below 40 once at end,270932530
+lomuto + Always Pick Leftmost on Random data+insertion below 59 once at end,263246270
+lomuto + Always Pick Leftmost on Random data+insertion below 86 once at end,245820790
+lomuto + Always Pick Leftmost on Random data+insertion below 125 once at end,246700190
+lomuto + Always Pick Middle on Random data,256911300
+lomuto + Always Pick Middle on Random data+insertion below 3 once at end,253758940
+lomuto + Always Pick Middle on Random data+insertion below 5 once at end,252068320
+lomuto + Always Pick Middle on Random data+insertion below 8 once at end,271002780
+lomuto + Always Pick Middle on Random data+insertion below 12 once at end,271780450
+lomuto + Always Pick Middle on Random data+insertion below 18 once at end,268965650
+lomuto + Always Pick Middle on Random data+insertion below 27 once at end,265291370
+lomuto + Always Pick Middle on Random data+insertion below 40 once at end,263551530
+lomuto + Always Pick Middle on Random data+insertion below 59 once at end,263480140
+lomuto + Always Pick Middle on Random data+insertion below 86 once at end,268149550
+lomuto + Always Pick Middle on Random data+insertion below 125 once at end,262386880
+lomuto + Always Pick Rightmost on Random data,243801260
+lomuto + Always Pick Rightmost on Random data+insertion below 3 once at end,276216120
+lomuto + Always Pick Rightmost on Random data+insertion below 5 once at end,339943790
+lomuto + Always Pick Rightmost on Random data+insertion below 8 once at end,267822090
+lomuto + Always Pick Rightmost on Random data+insertion below 12 once at end,238870220
+lomuto + Always Pick Rightmost on Random data+insertion below 18 once at end,243662370
+lomuto + Always Pick Rightmost on Random data+insertion below 27 once at end,282625850
+lomuto + Always Pick Rightmost on Random data+insertion below 40 once at end,237160150
+lomuto + Always Pick Rightmost on Random data+insertion below 59 once at end,240691110
+lomuto + Always Pick Rightmost on Random data+insertion below 86 once at end,241624460
+lomuto + Always Pick Rightmost on Random data+insertion below 125 once at end,265245510
+lomuto + Median Of Three on Random data,246621890
+lomuto + Median Of Three on Random data+insertion below 3 once at end,275354710
+lomuto + Median Of Three on Random data+insertion below 5 once at end,301817420
+lomuto + Median Of Three on Random data+insertion below 8 once at end,268763560
+lomuto + Median Of Three on Random data+insertion below 12 once at end,257294600
+lomuto + Median Of Three on Random data+insertion below 18 once at end,234137770
+lomuto + Median Of Three on Random data+insertion below 27 once at end,243409310
+lomuto + Median Of Three on Random data+insertion below 40 once at end,230936450
+lomuto + Median Of Three on Random data+insertion below 59 once at end,230675970
+lomuto + Median Of Three on Random data+insertion below 86 once at end,229009540
+lomuto + Median Of Three on Random data+insertion below 125 once at end,250528900
+hoare + Always Pick Leftmost on Random data,67458660
+hoare + Always Pick Leftmost on Random data+insertion below 3 once at end,58322790
+hoare + Always Pick Leftmost on Random data+insertion below 5 once at end,54497980
+hoare + Always Pick Leftmost on Random data+insertion below 8 once at end,55823870
+hoare + Always Pick Leftmost on Random data+insertion below 12 once at end,57251800
+hoare + Always Pick Leftmost on Random data+insertion below 18 once at end,56259100
+hoare + Always Pick Leftmost on Random data+insertion below 27 once at end,55784260
+hoare + Always Pick Leftmost on Random data+insertion below 40 once at end,77592010
+hoare + Always Pick Leftmost on Random data+insertion below 59 once at end,72949630
+hoare + Always Pick Leftmost on Random data+insertion below 86 once at end,64358050
+hoare + Always Pick Leftmost on Random data+insertion below 125 once at end,53541460
+hoare + Always Pick Middle on Random data,62942990
+hoare + Always Pick Middle on Random data+insertion below 3 once at end,58557370
+hoare + Always Pick Middle on Random data+insertion below 5 once at end,56033790
+hoare + Always Pick Middle on Random data+insertion below 8 once at end,55914170
+hoare + Always Pick Middle on Random data+insertion below 12 once at end,60706350
+hoare + Always Pick Middle on Random data+insertion below 18 once at end,64986470
+hoare + Always Pick Middle on Random data+insertion below 27 once at end,66333470
+hoare + Always Pick Middle on Random data+insertion below 40 once at end,64770810
+hoare + Always Pick Middle on Random data+insertion below 59 once at end,58663600
+hoare + Always Pick Middle on Random data+insertion below 86 once at end,63266670
+hoare + Always Pick Middle on Random data+insertion below 125 once at end,54547900
+hoare + Always Pick Rightmost on Random data,59392280
+hoare + Always Pick Rightmost on Random data+insertion below 3 once at end,68191410
+hoare + Always Pick Rightmost on Random data+insertion below 5 once at end,67456380
+hoare + Always Pick Rightmost on Random data+insertion below 8 once at end,56844020
+hoare + Always Pick Rightmost on Random data+insertion below 12 once at end,54449550
+hoare + Always Pick Rightmost on Random data+insertion below 18 once at end,51623250
+hoare + Always Pick Rightmost on Random data+insertion below 27 once at end,50095160
+hoare + Always Pick Rightmost on Random data+insertion below 40 once at end,55289820
+hoare + Always Pick Rightmost on Random data+insertion below 59 once at end,53036870
+hoare + Always Pick Rightmost on Random data+insertion below 86 once at end,51403860
+hoare + Always Pick Rightmost on Random data+insertion below 125 once at end,55163050
+hoare + Median Of Three on Random data,71679070
+hoare + Median Of Three on Random data+insertion below 3 once at end,66215680
+hoare + Median Of Three on Random data+insertion below 5 once at end,56666570
+hoare + Median Of Three on Random data+insertion below 8 once at end,53850820
+hoare + Median Of Three on Random data+insertion below 12 once at end,53672560
+hoare + Median Of Three on Random data+insertion below 18 once at end,53308240
+hoare + Median Of Three on Random data+insertion below 27 once at end,51024930
+hoare + Median Of Three on Random data+insertion below 40 once at end,50177270
+hoare + Median Of Three on Random data+insertion below 59 once at end,54289060
+hoare + Median Of Three on Random data+insertion below 86 once at end,50284230
+hoare + Median Of Three on Random data+insertion below 125 once at end,48672670
